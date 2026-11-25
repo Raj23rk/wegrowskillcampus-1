@@ -5,7 +5,6 @@ interface BadgeProps {
   variant?: "neutral" | "brand" | "orange";
   className?: string;
 }
-
 export const Badge: React.FC<BadgeProps> = ({
   children,
   variant = "brand",
