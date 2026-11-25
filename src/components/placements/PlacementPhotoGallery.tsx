@@ -57,10 +57,10 @@ export default function PlacementPhotoGallery() {
         <div>
           <div className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-[0.16em] text-brand-orange mb-1">
             <Briefcase className="w-4 h-4" />
-            <span>Campus Recruitment</span>
+            <span>WeGrow India</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-brand-navy">
-            Placement Drives in Action
+            Placement Drives in India
           </h2>
           <p className="mt-1 text-sm sm:text-base text-brand-textSecondary max-w-2xl">
             Moments from recent on-campus placement drives, student interview sessions, and corporate recruiter interactions.
@@ -126,7 +126,7 @@ export default function PlacementPhotoGallery() {
                 Campus Placements
               </span>
               <h4 className="text-sm sm:text-base font-semibold text-white">
-                Campus Placement & Corporate Recruitment Drive
+                Campus Placement & Corporate Recruitment Drive in India
               </h4>
             </div>
 

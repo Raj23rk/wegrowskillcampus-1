@@ -8,28 +8,28 @@ export const LandingFAQ: React.FC = () => {
 
   const faqs = [
     {
-      q: "Who is eligible to enroll in these 6 courses?",
-      a: "Our courses are open to College Students (Final & Pre-Final Year), Recent Graduates (B.E., B.Tech, BCA, B.Sc CS/IT, Arts & Science), Diploma holders, and Working Professionals seeking career switches into IT. No prior coding experience is required as each track begins from programming fundamentals.",
+      q: "Who can enrol?",
+      a: "We welcome students, graduates and working professionals, including people considering a career change. Ask our UK team about entry requirements and whether your chosen course suits beginners.",
     },
     {
-      q: "How does WeGrow's 100% Placement Support work?",
-      a: "From Month 3 onwards, our dedicated Placement Cell conducts technical mock interviews, resume reviews, aptitude preparation, and profile building. We organize on-campus placement drives and direct recruiter interviews at our Sivakasi and Srivilliputtur campuses until you secure a formal job offer.",
+      q: "What career support is available?",
+      a: "Our team can help you prepare a CV, practise interviews and show your project work. Ask what support is available with the course you are considering.",
     },
     {
-      q: "Are the classes conducted offline at Sivakasi and Srivilliputtur?",
-      a: "Yes! All courses feature 100% in-person practical lab sessions inside our air-conditioned smart classrooms equipped with 4K interactive boards. For learners from Sattur and nearby areas, we also offer flexible morning, evening, and weekend hybrid tracks.",
+      q: "Can I study online or in person?",
+      a: "Learning formats depend on the course and start date. Contact UK admissions to check whether online, in-person or hybrid study is available.",
     },
     {
-      q: "Do I need my own high-end laptop?",
-      a: "While having a personal laptop helps you practice at home, our campus provides high-speed connected workstations and high-speed fibre Wi-Fi so you can complete all daily coding assignments and lab projects comfortably on campus.",
+      q: "Do I need my own laptop?",
+      a: "Ask about equipment and software requirements before enrolling. These vary by course and learning format.",
     },
     {
-      q: "Are there flexible installment (EMI) options available for fees?",
-      a: "Yes! We believe financial constraints should never stop deserving students. We offer flexible zero-cost monthly EMI options and merit-based fee scholarships based on your performance in our initial aptitude and counselling assessment.",
+      q: "Where can I find course fees and payment information?",
+      a: "Published fees are shown in pounds on the course cards. Ask our UK team about fees marked for enquiry, payment options and any additional costs.",
     },
     {
-      q: "What certifications and project portfolios will I graduate with?",
-      a: "You will earn an industry-recognized Certificate of Completion from WeGrow Skill Campus Pvt. Ltd., verified internship experience certificates, and a live GitHub portfolio containing 4 to 6 full-stack/AI capstone applications to showcase to hiring managers.",
+      q: "Will I receive a certificate or build a portfolio?",
+      a: "Ask which projects are included, whether a certificate is available and what you need to complete to earn it.",
     },
   ];
 

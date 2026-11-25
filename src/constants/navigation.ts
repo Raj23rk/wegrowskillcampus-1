@@ -10,6 +10,7 @@ export const MAIN_NAVIGATION: NavItem[] = [
   { label: "Global Exposure", href: "/global-exposure" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+  { label: "E-shop", href: "/eshop" },
 ];
 
 export const PRIMARY_CTA = {

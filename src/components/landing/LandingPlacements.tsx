@@ -125,8 +125,8 @@ export const LandingPlacements: React.FC = () => {
     },
     {
       step: "03",
-      title: "Portfolio & Resume Engineering",
-      desc: "ATS-optimized resumes, LinkedIn branding, GitHub repositories, and interactive project showcases.",
+      title: "Portfolio & CV Preparation",
+      desc: "Improve your CV, LinkedIn profile and project portfolio.",
     },
     {
       step: "04",
@@ -135,8 +135,8 @@ export const LandingPlacements: React.FC = () => {
     },
     {
       step: "05",
-      title: "Campus Placement Drives",
-      desc: "Direct interviews with top recruiters at our Sivakasi and Srivilliputtur boardrooms till placement.",
+      title: "Preparing for Applications",
+      desc: "Get guidance on presenting your portfolio and preparing for employer interviews.",
     },
   ];
 
@@ -148,13 +148,13 @@ export const LandingPlacements: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-emerald-700 mb-3">
             <Award className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Real Placements • Real Careers</span>
+            <span>WeGrow India Alumni</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
-            Our Placed Students &amp; Success Stories
+            Placement Stories From India
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            From colleges across Virudhunagar, Madurai, Tirunelveli, and Tenkasi districts to high-paying software careers in leading IT corporations.
+            Meet learners from WeGrow’s India campuses and read about their training and first roles.
           </p>
         </div>
 
@@ -211,7 +211,7 @@ export const LandingPlacements: React.FC = () => {
               <div className="mt-5 border-t border-slate-100 pt-3 flex items-center justify-between text-xs">
                 <span className="font-semibold text-brand-navy">{student.course}</span>
                 <span className="inline-flex items-center text-emerald-600 font-bold">
-                  <CheckCircle2 className="w-3.5 h-3.5 mr-1" /> Verified
+                  <CheckCircle2 className="w-3.5 h-3.5 mr-1" /> India
                 </span>
               </div>
             </div>
@@ -224,13 +224,13 @@ export const LandingPlacements: React.FC = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 pb-4 border-b border-slate-100 gap-2">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-brand-orange">
-                  On-Campus Action
+                  India Events Archive
                 </span>
                 <h3 className="text-xl sm:text-2xl font-black text-brand-navy">
-                  Campus Placement Drives in Action
+                  Placement Drives in India
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                  Live moments from corporate interview rounds, written tests, and student selection announcements.
+                  Photos from interviews, assessments and student selection events at WeGrow’s India campuses.
                 </p>
               </div>
 
@@ -295,13 +295,13 @@ export const LandingPlacements: React.FC = () => {
         <div className="rounded-2xl bg-white border border-slate-200 p-6 sm:p-9 shadow-card mb-16">
           <div className="text-center max-w-2xl mx-auto mb-10">
             <span className="text-xs font-bold uppercase tracking-wider text-brand-orange">
-              Guaranteed Process
+              Career Preparation
             </span>
             <h3 className="text-2xl font-black text-brand-navy mt-1">
               Our 5-Step Career &amp; Placement Framework
             </h3>
             <p className="text-sm text-slate-600 mt-2">
-              Every learner goes through a structured, phase-wise pipeline designed to maximize recruiter selection.
+              Build technical skills, prepare your portfolio and practise talking about your work before applying.
             </p>
           </div>
 
@@ -325,10 +325,10 @@ export const LandingPlacements: React.FC = () => {
         <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8">
           <div className="text-center mb-6">
             <span className="text-xs font-bold uppercase tracking-widest text-slate-400">
-              Trusted Corporate Network
+              WeGrow India Network
             </span>
             <h3 className="text-xl sm:text-2xl font-extrabold text-brand-navy mt-1">
-              Where Our Students Work
+              Employers in the India Network
             </h3>
           </div>
 

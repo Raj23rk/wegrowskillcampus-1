@@ -76,14 +76,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
               <section className="rounded-[26px] border border-brand-border bg-white p-7 shadow-card sm:p-8">
                 <h2 className="text-2xl font-bold text-brand-navy mb-4">Learning Experience</h2>
-                <ul className="space-y-3 text-brand-textSecondary">
-                  {["Classroom training", "Live online classes", "Weekend or fast-track batches", "Regular batches", "Recorded sessions"].map((point) => (
-                    <li key={point} className="flex items-start gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-orange" />
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="leading-relaxed text-brand-textSecondary">
+                  Ask our UK admissions team how this course is taught and what practice activities are included.
+                </p>
               </section>
             </div>
 
@@ -91,12 +86,11 @@ export default async function CoursePage({ params }: CoursePageProps) {
               <h2 className="text-2xl font-bold text-brand-navy mb-5">Course Information</h2>
               <dl className="divide-y divide-brand-border">
                 {[
-                  { label: "Duration", value: course.duration },
-                  { label: "Tamil Nadu pay reference", value: `${course.salaryEstimate} — comparable role: ${course.salarySourceRole}. Indicative only; not a course outcome or guarantee.` },
-                  { label: "Training modes", value: "Classroom, live online, weekend, fast-track, regular batches, and recorded sessions are listed on the WeGrow website. Confirm current availability with the campus." },
-                  { label: "Class timings", value: "Classes run Monday to Saturday between 9:00 AM and 7:00 PM IST. Contact the campus to confirm available batch schedules." },
+                  { label: "Duration", value: course.duration ?? "Enquire for duration" },
+                  { label: "Training modes", value: "Ask our UK team which delivery formats are available for this course." },
+                  { label: "Class timings", value: "Contact our UK team for upcoming start dates and class times." },
                   { label: "Eligibility", value: "Contact the campus to confirm entry requirements." },
-                  { label: "Fees and certificate", value: "Contact the campus for current fees, certificate issuer, and completion conditions." },
+                  { label: "Certificate", value: "Contact the campus to confirm the certificate issuer and completion requirements." },
                 ].map(({ label, value }) => (
                   <div key={label} className="grid sm:grid-cols-[160px_1fr] gap-1 sm:gap-5 py-4 first:pt-0 last:pb-0">
                     <dt className="font-semibold text-brand-navy">{label}</dt>
@@ -104,13 +98,12 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   </div>
                 ))}
               </dl>
-              <p className="mt-5 text-sm text-brand-textSecondary">Salary reference: <a className="font-semibold text-brand-orange underline underline-offset-2" href={course.salarySourceUrl} target="_blank" rel="noreferrer">{course.salarySourceRole} pay data ↗</a>. Checked 13 October 2026; source sample sizes and update dates vary.</p>
             </section>
 
             <section className="rounded-[26px] border border-orange-100 bg-orange-50 p-7 text-center sm:p-9 lg:p-10">
               <h2 className="text-2xl font-bold text-brand-navy mb-3">Next Step</h2>
               <p className="text-brand-textSecondary leading-relaxed max-w-2xl mx-auto mb-6">
-                Contact WeGrow Skill Campus to discuss the syllabus, batch availability, fees, and whether this course matches your goals. Salary ranges shown are indicative only and are not a job or salary guarantee.
+                Contact WeGrow Skill Campus to discuss the syllabus, batch availability, fees, and whether this course matches your goals.
               </p>
               <Button href="/contact" variant="primary" size="lg">
                 Enquire About This Course

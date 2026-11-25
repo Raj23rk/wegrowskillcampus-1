@@ -1,11 +1,17 @@
-import { ContactDetails } from "@/types";
+export const UK_CONTACT = {
+  email: "enquiry@wegrowcampus.co.uk",
+  phone: "+44 7414 106521",
+  phoneHref: "tel:+447414106521",
+  phonePlaceholder: "+44 7XXX XXXXXX",
+  location: "Brentford",
+  address: "981 Great West Road, Suite 140, Brentford TW8 9DN, United Kingdom",
+  hours: "Monday to Saturday, 9 am to 7 pm (UK time). Closed on Sundays.",
+};
 
-export const COMPANY_INFO: ContactDetails = {
-  companyName: "WeGrow Skill Campus Pvt. Ltd.",
-  addressPlaceholder: "193,1A, Ayyappan kovil opposite/ Naturals Salon & Spa Downstairs, Parasakthi Colony, Sivakasi, Tamil Nadu 626123 (Branch 2: 100A/5, Thiruthangal Road, Sivakasi – 626 123)",
-  phonePlaceholder: "+91 93443 37331",
-  emailPlaceholder: "enquiry@wegrowcampus.in",
-  workingHours: "Monday - Saturday: 9:00 AM - 7:00 PM IST",
+const mapQuery = encodeURIComponent(UK_CONTACT.address);
+export const UK_CONTACT_MAP = {
+  href: `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
+  embed: `https://maps.google.com/maps?q=${mapQuery}&output=embed`,
 };
 
 export const SOCIAL_LINKS = [

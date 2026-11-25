@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { UK_CONTACT } from "@/constants/company";
 import {
   ArrowLeft,
   ArrowRight,
@@ -208,8 +209,8 @@ export default function StudentLoginPage() {
             </div>
             <p className="mt-3 leading-7 text-[#53627B]">Please contact the WeGrow Skill Campus administrator to reset or change your password.</p>
             <div className="mt-5 space-y-3 rounded-xl bg-[#F6F8FC] p-4 text-sm">
-              <a href="mailto:enquiry@wegrowcampus.in" className="flex items-center gap-3 font-semibold text-[#0B3B8F] hover:text-[#E06F00]"><Mail className="h-4 w-4 text-[#F7820E]" aria-hidden="true" />enquiry@wegrowcampus.in</a>
-              <a href="tel:+919344337331" className="flex items-center gap-3 font-semibold text-[#0B3B8F] hover:text-[#E06F00]"><Phone className="h-4 w-4 text-[#F7820E]" aria-hidden="true" />+91 93443 37331</a>
+              <a href={`mailto:${UK_CONTACT.email}`} className="flex items-center gap-3 font-semibold text-[#0B3B8F] hover:text-[#E06F00]"><Mail className="h-4 w-4 text-[#F7820E]" aria-hidden="true" />{UK_CONTACT.email}</a>
+              <a href={UK_CONTACT.phoneHref} className="flex items-center gap-3 font-semibold text-[#0B3B8F] hover:text-[#E06F00]"><Phone className="h-4 w-4 text-[#F7820E]" aria-hidden="true" />{UK_CONTACT.phone}</a>
             </div>
             <button type="button" onClick={() => setForgotOpen(false)} className="mt-6 w-full rounded-xl bg-[#0B3B8F] px-4 py-3 font-bold text-white transition hover:bg-[#082E70] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#0B3B8F]/25">Got it</button>
           </section>

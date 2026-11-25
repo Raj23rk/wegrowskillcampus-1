@@ -1,4 +1,5 @@
 import React from "react";
+import { COURSES } from "@/constants/courses";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -127,17 +128,17 @@ export const AboutSection: React.FC = () => {
           {/* ================= RIGHT COLUMN (Stats Card) - 18% (Compact Box) ================= */}
           <div className="flex w-full justify-center lg:col-span-2 lg:mx-auto lg:max-w-2xl xl:col-span-1 xl:col-start-3 xl:row-start-1 xl:mx-0 xl:max-w-none xl:justify-end">
             <div className="w-full max-w-[320px] sm:max-w-[340px] lg:max-w-[260px] xl:max-w-[270px] 2xl:max-w-[290px] bg-white rounded-[18px] p-[20px] sm:p-[24px] lg:p-[18px] xl:p-[20px] 2xl:p-[24px] shadow-[0_10px_35px_rgba(11,59,143,0.08)] border border-[#EEF1F6]">
-              {/* Stat 1: 📖 15+ Programs Designed */}
+              {/* Courses listed */}
               <div className="flex items-center gap-[16px] xl:gap-[16px] 2xl:gap-[20px]">
                 <div className="w-[54px] h-[54px] xl:w-[50px] xl:h-[50px] 2xl:w-[56px] 2xl:h-[56px] rounded-full bg-[#FFF1E3] flex items-center justify-center shrink-0">
                   <BookOpen className="w-[24px] h-[24px] xl:w-[22px] xl:h-[22px] 2xl:w-[25px] 2xl:h-[25px] text-[#F7820E] stroke-[2.2]" aria-hidden="true" />
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-[28px] sm:text-[32px] xl:text-[28px] 2xl:text-[32px] font-extrabold font-montserrat text-[#0B3B8F] leading-none">
-                    15+
+                    {COURSES.length}
                   </span>
                   <span className="text-[13px] sm:text-[14px] xl:text-[13px] 2xl:text-[14px] font-medium font-montserrat text-[#3B4A66] mt-1.5 leading-tight">
-                    Programs
+                    Courses
                     <br />
                     Designed
                   </span>
@@ -147,14 +148,14 @@ export const AboutSection: React.FC = () => {
               {/* Divider 1 */}
               <div className="my-[16px] xl:my-[16px] 2xl:my-[20px] border-t border-[#E8ECF2]" aria-hidden="true" />
 
-              {/* Stat 2: ⚙️ 100% Practical Learning */}
+              {/* Stat 2: ⚙️ Practical Learning */}
               <div className="flex items-center gap-[16px] xl:gap-[16px] 2xl:gap-[20px]">
                 <div className="w-[54px] h-[54px] xl:w-[50px] xl:h-[50px] 2xl:w-[56px] 2xl:h-[56px] rounded-full bg-[#FFF1E3] flex items-center justify-center shrink-0">
                   <Settings className="w-[24px] h-[24px] xl:w-[22px] xl:h-[22px] 2xl:w-[25px] 2xl:h-[25px] text-[#F7820E] stroke-[2.2]" aria-hidden="true" />
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-[28px] sm:text-[32px] xl:text-[28px] 2xl:text-[32px] font-extrabold font-montserrat text-[#0B3B8F] leading-none">
-                    100%
+                    Build
                   </span>
                   <span className="text-[13px] sm:text-[14px] xl:text-[13px] 2xl:text-[14px] font-medium font-montserrat text-[#3B4A66] mt-1.5 leading-tight">
                     Practical
@@ -167,14 +168,14 @@ export const AboutSection: React.FC = () => {
               {/* Divider 2 */}
               <div className="my-[16px] xl:my-[16px] 2xl:my-[20px] border-t border-[#E8ECF2]" aria-hidden="true" />
 
-              {/* Stat 3: 📈 98% Placement Support */}
+              {/* Stat 3: 📈 Career Support */}
               <div className="flex items-center gap-[16px] xl:gap-[16px] 2xl:gap-[20px]">
                 <div className="w-[54px] h-[54px] xl:w-[50px] xl:h-[50px] 2xl:w-[56px] 2xl:h-[56px] rounded-full bg-[#FFF1E3] flex items-center justify-center shrink-0">
                   <TrendingUp className="w-[24px] h-[24px] xl:w-[22px] xl:h-[22px] 2xl:w-[25px] 2xl:h-[25px] text-[#F7820E] stroke-[2.2]" aria-hidden="true" />
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-[28px] sm:text-[32px] xl:text-[28px] 2xl:text-[32px] font-extrabold font-montserrat text-[#0B3B8F] leading-none">
-                    98%
+                    Grow
                   </span>
                   <span className="text-[13px] sm:text-[14px] xl:text-[13px] 2xl:text-[14px] font-medium font-montserrat text-[#3B4A66] mt-1.5 leading-tight">
                     Placement

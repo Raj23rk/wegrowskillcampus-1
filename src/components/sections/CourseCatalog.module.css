@@ -1,0 +1,30 @@
+.courseFacts {
+  container-type: inline-size;
+}
+
+/* Reserve the same vertical space as the India catalogue's price panel. */
+.courseFee {
+  min-height: 57px;
+}
+
+@media (max-width: 639px) {
+  @container (width < 225px) {
+    .courseFee {
+      min-height: 73px;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  @container (312px <= width < 452px) {
+    .courseFee {
+      min-height: 73px;
+    }
+  }
+
+  @container (width < 312px) {
+    .courseFee {
+      min-height: 105px;
+    }
+  }
+}

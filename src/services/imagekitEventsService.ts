@@ -131,6 +131,7 @@ function detectCategory(folderName: string): string {
 let cachedEvents: EventItem[] | null = null;
 let lastCacheTime = 0;
 const CACHE_TTL_MS = 15 * 1000; // 15 seconds
+const INDIA_EVENTS_URL = "https://www.wegrowcampus.in/api/events";
 
 export async function getLiveImageKitEvents(forceRefresh = false): Promise<{ events: EventItem[]; source: "live" | "cache" | "fallback" }> {
   const now = Date.now();
@@ -138,12 +139,29 @@ export async function getLiveImageKitEvents(forceRefresh = false): Promise<{ eve
     return { events: cachedEvents, source: "cache" };
   }
 
+  try {
+    const response = await fetch(INDIA_EVENTS_URL, {
+      cache: "no-store",
+      signal: AbortSignal.timeout(4000),
+    });
+    if (response.ok) {
+      const data: { success?: boolean; events?: EventItem[] } = await response.json();
+      if (data.success && Array.isArray(data.events)) {
+        cachedEvents = data.events;
+        lastCacheTime = Date.now();
+        return { events: cachedEvents, source: "live" };
+      }
+    }
+  } catch {
+    // Keep the archive available if the India site cannot be reached.
+  }
+
   const publicKey = process.env.IMAGEKIT_PUBLIC_KEY;
   const privateKey = process.env.IMAGEKIT_PRIVATE_KEY;
   const urlEndpoint = process.env.IMAGEKIT_URL_ENDPOINT || process.env.NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT || "https://ik.imagekit.io/Deepak2004";
 
   if (!publicKey || !privateKey) {
-    return { events: EVENTS_DATA, source: "fallback" };
+    return { events: cachedEvents || EVENTS_DATA, source: "fallback" };
   }
 
   try {

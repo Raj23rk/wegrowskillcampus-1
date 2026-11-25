@@ -2,51 +2,14 @@
 
 import React, { useState, useRef } from "react";
 import Link from "next/link";
-import { MapPin, Phone, Globe, Send, CheckCircle2, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Globe, Send, CheckCircle2 } from "lucide-react";
 import { COURSES } from "@/constants/courses";
 import Container from "@/components/common/Container";
 import Button from "@/components/common/Button";
 import PageHero from "@/components/common/PageHero";
+import { UK_CONTACT } from "@/constants/company";
+import { SITE_METADATA } from "@/constants/seo";
 import { submitContactEnquiry, ContactEnquiryPayload } from "@/services/contact/contactService";
-
-const contactNumbers = [
-  { display: "+91 93443 37331", tel: "+919344337331", whatsapp: "919344337331" },
-  { display: "+91 93633 37331", tel: "+919363337331", whatsapp: "919363337331" },
-];
-
-interface CampusBranch {
-  label?: string;
-  address: string;
-}
-
-interface CampusInfo {
-  name: string;
-  branches: CampusBranch[];
-}
-
-const campuses: CampusInfo[] = [
-  {
-    name: "Sivakasi",
-    branches: [
-      {
-        label: "Sivakasi (Main Branch)",
-        address: "193,1A, Ayyappan kovil opposite/ Naturals Salon & Spa Downstairs, Parasakthi Colony, Sivakasi, Tamil Nadu 626123",
-      },
-      {
-        label: "Sivakasi (Thiruthangal Road)",
-        address: "100A/5, 1st Floor, Thiruthangal Road, Opposite Bell Hotel, IBACO Upstairs, Sivakasi – 626 123",
-      },
-    ],
-  },
-  {
-    name: "Srivilliputhur",
-    branches: [
-      {
-        address: "129, North Car Street, Opposite Bombay Textiles, Upstairs Pathras Kids & Gift Shop, Srivilliputtur – 626 125",
-      },
-    ],
-  },
-];
 
 export default function ContactPage() {
   const [formData, setFormData] = useState<ContactEnquiryPayload>({
@@ -60,9 +23,7 @@ export default function ContactPage() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [feedbackMessage, setFeedbackMessage] = useState("");
   const [courseOfInterest, setCourseOfInterest] = useState("");
-  const [preferredCampus, setPreferredCampus] = useState("");
   const [preferredMode, setPreferredMode] = useState("");
-  const [submittedWhatsappUrl, setSubmittedWhatsappUrl] = useState("");
   const isSubmittingRef = useRef(false);
 
   const handleChange = (
@@ -81,60 +42,26 @@ export default function ContactPage() {
     setStatus("submitting");
     setFeedbackMessage("");
 
-    // Prepare WhatsApp message formatted with pure plain text (no bold, no asterisks, no symbols)
-    const lines = [
-      "New Enquiry: WeGrow Skill Campus",
-      "",
-      `Name: ${formData.fullName.trim()}`,
-      `Email: ${formData.email.trim()}`,
-      `Phone: ${formData.phone.trim()}`,
-      courseOfInterest ? `Course of Interest: ${courseOfInterest}` : null,
-      preferredCampus ? `Preferred Campus: ${preferredCampus}` : null,
-      preferredMode ? `Learning Mode: ${preferredMode}` : null,
-      formData.message.trim() ? `Message: ${formData.message.trim()}` : null,
-      "",
-      "Source: www.wegrowcampus.in/contact",
-    ].filter(Boolean);
-
-    const whatsappMessage = lines.join("\n");
-    const targetWhatsappNumber = "919344337331"; // First WhatsApp number: +91 93443 37331
-    const whatsappUrl = `https://wa.me/${targetWhatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-    setSubmittedWhatsappUrl(whatsappUrl);
-
-    // Open WhatsApp exactly ONCE (prevent duplicate triggers)
-    if (typeof window !== "undefined") {
-      const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
-      if (isMobile) {
-        window.location.href = whatsappUrl;
-      } else {
-        window.open(whatsappUrl, "_blank");
-      }
-    }
-
-    if (typeof window !== "undefined" && typeof window.fbq === "function") {
-      window.fbq("track", "Lead");
-    }
-
     try {
       const enquiryMessage = [
         formData.message,
         courseOfInterest && `Course of interest: ${courseOfInterest}`,
-        preferredCampus && `Preferred campus: ${preferredCampus}`,
         preferredMode && `Preferred learning mode: ${preferredMode}`,
+        `Source: ${SITE_METADATA.siteUrl}/contact`,
       ].filter(Boolean).join("\n\n");
-      await submitContactEnquiry({ ...formData, message: enquiryMessage });
-    } catch (err: unknown) {
-      console.warn("Backend enquiry submission note:", err);
+      const response = await submitContactEnquiry({ ...formData, message: enquiryMessage });
+      if (!response.success) throw new Error(response.message);
+    } catch {
+      setStatus("error");
+      setFeedbackMessage("We couldn’t submit your enquiry. Please try again or contact us by email.");
+      return;
     } finally {
-      setTimeout(() => {
-        isSubmittingRef.current = false;
-      }, 1500);
+      isSubmittingRef.current = false;
     }
 
+    window.fbq?.("track", "Lead");
     setStatus("success");
-    setFeedbackMessage(
-      "Thank you for your enquiry! The form details have been forwarded to our WhatsApp (+91 93443 37331). Our admissions team will reach out shortly."
-    );
+    setFeedbackMessage("Thank you for your enquiry. Our admissions team will be in touch.");
     setFormData({
       fullName: "",
       email: "",
@@ -143,7 +70,6 @@ export default function ContactPage() {
       message: "",
     });
     setCourseOfInterest("");
-    setPreferredCampus("");
     setPreferredMode("");
   };
 
@@ -164,53 +90,36 @@ export default function ContactPage() {
             <div className="relative space-y-5 overflow-hidden rounded-[26px] border border-brand-border bg-white p-6 shadow-card sm:p-8">
               <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-orange to-amber-300" aria-hidden="true" />
               <div>
-                <h2 className="text-xl font-bold text-brand-navy">Call or WhatsApp</h2>
-                <p className="mt-1 text-sm text-brand-textSecondary">Contact our team to find the right course for you.</p>
-                <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-                  {contactNumbers.map((number) => (
-                    <div key={number.tel} className="rounded-xl bg-orange-50 p-3">
-                      <a href={`tel:${number.tel}`} className="flex items-center gap-3 px-1 py-1 font-bold text-brand-navy transition hover:text-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange">
-                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-orange text-white"><Phone className="h-5 w-5" aria-hidden="true" /></span>
-                        <span>{number.display}</span>
-                      </a>
-                      <a href={`https://wa.me/${number.whatsapp}`} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center rounded-lg border border-emerald-200 bg-white px-3 py-1.5 text-xs font-bold text-emerald-800 transition hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-emerald-600">
-                        WhatsApp
-                      </a>
-                    </div>
-                  ))}
+                <h2 className="text-xl font-bold text-brand-navy">Contact Our UK Team</h2>
+                <p className="mt-1 text-sm text-brand-textSecondary">Ask about courses, fees and upcoming start dates.</p>
+                <div className="mt-4 space-y-3">
+                  <a href={UK_CONTACT.phoneHref} className="flex items-center gap-3 rounded-xl bg-orange-50 p-3 font-bold text-brand-navy transition hover:text-brand-orange">
+                    <Phone className="h-5 w-5 shrink-0 text-brand-orange" aria-hidden="true" />
+                    {UK_CONTACT.phone}
+                  </a>
+                  <a href={`mailto:${UK_CONTACT.email}`} className="flex items-center gap-3 break-all font-bold text-brand-blue hover:text-brand-orange">
+                    <Mail className="h-5 w-5 shrink-0 text-brand-orange" aria-hidden="true" />
+                    {UK_CONTACT.email}
+                  </a>
+                  <p className="flex items-center gap-3 text-sm text-brand-textSecondary">
+                    <Clock className="h-5 w-5 shrink-0 text-brand-orange" aria-hidden="true" />
+                    {UK_CONTACT.hours}
+                  </p>
                 </div>
               </div>
 
               <div className="border-t border-slate-100 pt-5">
-                <h2 className="mb-4 text-xl font-bold text-brand-navy">Visit Our Campuses</h2>
-                <div className="space-y-4">
-                  {campuses.map((campus) => (
-                    <article key={campus.name} className="rounded-2xl border border-slate-100 bg-brand-bg/70 p-4 text-sm">
-                      <h3 className="mb-3 font-bold text-brand-navy text-base">{campus.name}</h3>
-                      <div className="space-y-3">
-                        {campus.branches.map((branch, idx) => (
-                          <div key={idx} className={idx > 0 ? "pt-3 border-t border-slate-200/70" : ""}>
-                            {branch.label && (
-                              <span className="mb-1.5 inline-block text-[11px] font-bold text-brand-orange uppercase tracking-wider">
-                                {branch.label}
-                              </span>
-                            )}
-                            <p className="flex gap-2 leading-6 text-brand-textSecondary">
-                              <MapPin className="mt-1 h-4 w-4 shrink-0 text-brand-orange" aria-hidden="true" />
-                              <span>{branch.address}</span>
-                            </p>
-                          </div>
-                        ))}
-                      </div>
-                    </article>
-                  ))}
+                <h2 className="mb-4 text-xl font-bold text-brand-navy">Brentford Address</h2>
+                <div className="flex items-start gap-3 rounded-2xl border border-slate-100 bg-brand-bg/70 p-4 text-sm text-brand-textSecondary">
+                  <MapPin className="mt-1 h-4 w-4 shrink-0 text-brand-orange" aria-hidden="true" />
+                  <span>{UK_CONTACT.address}</span>
                 </div>
               </div>
 
-              <a href="https://www.wegrowcampus.in" target="_blank" rel="noreferrer" className="flex items-center gap-3 border-t border-slate-100 pt-5 font-bold text-brand-blue hover:text-brand-orange">
+              <Link href="/" className="flex items-center gap-3 border-t border-slate-100 pt-5 font-bold text-brand-blue hover:text-brand-orange">
                 <Globe className="h-5 w-5 text-brand-orange" aria-hidden="true" />
-                www.wegrowcampus.in
-              </a>
+                {new URL(SITE_METADATA.siteUrl).hostname}
+              </Link>
             </div>
           </div>
 
@@ -220,7 +129,7 @@ export default function ContactPage() {
               <div className="absolute inset-x-0 top-0 h-1 rounded-t-[26px] bg-gradient-to-r from-brand-orange to-amber-300" aria-hidden="true" />
               <h2 className="mb-2 text-2xl font-extrabold text-brand-navy">Send an Enquiry</h2>
               <p className="text-xs text-slate-500 mb-6">
-                Fill in the details below and an academic advisor will connect with you.
+                Fill in the details below and a course adviser will connect with you.
               </p>
 
               {status === "success" && (
@@ -232,19 +141,6 @@ export default function ContactPage() {
                       <span className="text-emerald-800 text-xs sm:text-sm">{feedbackMessage}</span>
                     </div>
                   </div>
-                  {submittedWhatsappUrl && (
-                    <div className="pt-1">
-                      <a
-                        href={submittedWhatsappUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-4 py-2 text-xs sm:text-sm font-bold text-white shadow-sm hover:bg-emerald-700 transition"
-                      >
-                        <MessageCircle className="w-4 h-4" aria-hidden="true" />
-                        <span>Chat on WhatsApp (+91 93443 37331)</span>
-                      </a>
-                    </div>
-                  )}
                 </div>
               )}
 
@@ -300,7 +196,7 @@ export default function ContactPage() {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+91 XXXXX XXXXX"
+                      placeholder={UK_CONTACT.phonePlaceholder}
                       className="w-full px-4 py-2.5 rounded border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-brand-blue"
                     />
                   </div>
@@ -316,14 +212,6 @@ export default function ContactPage() {
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="preferredCampus" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1.5">Preferred Campus</label>
-                    <select id="preferredCampus" value={preferredCampus} onChange={(event) => setPreferredCampus(event.target.value)} className="w-full px-4 py-2.5 rounded border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-brand-blue bg-white">
-                      <option value="">Select a campus (optional)</option>
-                      <option value="Sivakasi">Sivakasi</option>
-                      <option value="Srivilliputhur">Srivilliputhur</option>
-                    </select>
-                  </div>
-                  <div className="sm:col-span-2">
                     <label htmlFor="preferredMode" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1.5">Preferred Learning Mode</label>
                     <select id="preferredMode" value={preferredMode} onChange={(event) => setPreferredMode(event.target.value)} className="w-full px-4 py-2.5 rounded border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-brand-blue bg-white">
                       <option value="">Select a mode (optional; availability to be confirmed)</option>
@@ -366,10 +254,6 @@ export default function ContactPage() {
                     <Send className="w-4 h-4 mr-2" aria-hidden="true" />
                     <span>{status === "submitting" ? "Submitting..." : "Submit Enquiry"}</span>
                   </Button>
-                  <span className="text-xs text-slate-500 flex items-center gap-1.5">
-                    <MessageCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" aria-hidden="true" />
-                    <span>Automatically sends details to WhatsApp (+91 93443 37331)</span>
-                  </span>
                 </div>
               </form>
             </div>

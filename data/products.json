@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "advanced-excel-dashboard-starter-kit",
+    "name": "Advanced Excel Dashboard Starter Kit",
+    "price": "£48.00",
+    "image": "/products/advanced-excel-dashboard-starter-kit.jpg",
+    "summary": "Improve advanced excel dashboard starter with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for advanced excel dashboard starter within documents, spreadsheets, presentations, and office administration workflows. It uses mentor style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-excel-fundamentals-exercise-book",
+      "data-entry-and-office-admin-practice-set",
+      "powerpoint-presentation-design-toolkit",
+      "office-skills-certification-preparation-pack"
+    ]
+  },
+  {
+    "id": "analytics-report-writing-template-pack",
+    "name": "Analytics Report Writing Template Pack",
+    "price": "£225.00",
+    "image": "/products/analytics-report-writing-template-pack.jpg",
+    "summary": "Strengthen analytics report writing using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for analytics report writing within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "real-world-dataset-practice-bundle",
+      "power-bi-beginner-dashboard-kit",
+      "business-intelligence-portfolio-project-guide",
+      "python-data-analysis-starter-guide"
+    ]
+  },
+  {
+    "id": "aptitude-and-logical-reasoning-drill-book",
+    "name": "Aptitude and Logical Reasoning Drill Book",
+    "price": "£327.00",
+    "image": "/products/aptitude-and-logical-reasoning-drill-book.png",
+    "summary": "Learn aptitude and logical reasoning drill through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for aptitude and logical reasoning drill within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses self-assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "complete-placement-success-toolkit",
+      "job-application-tracking-spreadsheet-kit",
+      "workplace-readiness-soft-skills-guide",
+      "communication-skills-for-it-trainees"
+    ]
+  },
+  {
+    "id": "authentication-and-user-management-starter-kit",
+    "name": "Authentication and User Management Starter Kit",
+    "price": "£171.00",
+    "image": "/products/authentication-and-user-management-starter-kit.jpg",
+    "summary": "Strengthen authentication and user management starter using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for authentication and user management starter within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "mysql-practical-assignment-kit",
+      "deployment-and-hosting-checklist-manual",
+      "full-stack-crud-project-blueprint",
+      "backend-api-fundamentals-guide"
+    ]
+  },
+  {
+    "id": "backend-api-fundamentals-guide",
+    "name": "Backend API Fundamentals Guide",
+    "price": "£164.00",
+    "image": "/products/backend-api-fundamentals-guide.jpg",
+    "summary": "Improve backend api fundamentals with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for backend api fundamentals within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "node-js-starter-project-workbook",
+      "php-and-mysql-web-app-guide",
+      "sql-query-practice-workbook",
+      "full-stack-interview-and-project-review-pack"
+    ]
+  },
+  {
+    "id": "beginner-digital-productivity-planner",
+    "name": "Beginner Digital Productivity Planner",
+    "price": "£18.00",
+    "image": "/products/beginner-digital-productivity-planner.jpg",
+    "summary": "Strengthen beginner digital productivity planner using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for beginner digital productivity planner within computer confidence, safe digital habits, file control, and beginner lab practice. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "keyboard-speed-and-accuracy-practice-kit",
+      "windows-file-management-practical-guide",
+      "computer-lab-practice-assignment-bundle",
+      "cloud-storage-and-google-workspace-basics"
+    ]
+  },
+  {
+    "id": "beginner-web-project-assignment-pack",
+    "name": "Beginner Web Project Assignment Pack",
+    "price": "£373.00",
+    "image": "/products/beginner-web-project-assignment-pack.jpg",
+    "summary": "Develop beginner web project assignment with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for beginner web project assignment within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "excel-business-tracker-project-kit",
+      "project-presentation-and-viva-preparation-pack",
+      "student-portfolio-planning-workbook",
+      "python-utility-app-project-bundle"
+    ]
+  },
+  {
+    "id": "bootstrap-website-builder-workbook",
+    "name": "Bootstrap Website Builder Workbook",
+    "price": "£114.00",
+    "image": "/products/bootstrap-website-builder-workbook.jpg",
+    "summary": "Build bootstrap website through practical lessons, helping learners design, debug, and present responsive web pages.",
+    "description": "This professional pack combines a focused pathway for bootstrap website within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "css-styling-and-layout-exercise-pack",
+      "front-end-developer-certification-prep-pack",
+      "responsive-website-design-project-guide",
+      "javascript-basics-coding-notebook"
+    ]
+  },
+  {
+    "id": "brand-identity-mini-project-bundle",
+    "name": "Brand Identity Mini Project Bundle",
+    "price": "£277.00",
+    "image": "/products/brand-identity-mini-project-bundle.jpg",
+    "summary": "Develop brand identity mini project with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for brand identity mini project within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "illustrator-vector-design-starter-pack",
+      "ui-design-principles-handbook",
+      "canva-social-media-design-toolkit",
+      "photoshop-essentials-exercise-guide"
+    ]
+  },
+  {
+    "id": "business-intelligence-portfolio-project-guide",
+    "name": "Business Intelligence Portfolio Project Guide",
+    "price": "£231.00",
+    "image": "/products/business-intelligence-portfolio-project-guide.jpg",
+    "summary": "Improve business intelligence portfolio project with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for business intelligence portfolio project within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "business-metrics-and-kpi-guide",
+      "python-data-analysis-starter-guide",
+      "excel-data-cleaning-exercise-pack",
+      "data-visualization-design-handbook"
+    ]
+  },
+  {
+    "id": "business-letter-and-email-writing-pack",
+    "name": "Business Letter and Email Writing Pack",
+    "price": "£30.00",
+    "image": "/products/business-letter-and-email-writing-pack.jpg",
+    "summary": "Strengthen business letter and email writing using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for business letter and email writing within documents, spreadsheets, presentations, and office administration workflows. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "data-entry-and-office-admin-practice-set",
+      "professional-resume-formatting-template-kit",
+      "excel-formula-and-functions-drill-pack",
+      "advanced-excel-dashboard-starter-kit"
+    ]
+  },
+  {
+    "id": "business-metrics-and-kpi-guide",
+    "name": "Business Metrics and KPI Guide",
+    "price": "£197.00",
+    "image": "/products/business-metrics-and-kpi-guide.jpg",
+    "summary": "Strengthen business metrics and kpi using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for business metrics and kpi within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "power-bi-beginner-dashboard-kit",
+      "analytics-report-writing-template-pack",
+      "business-intelligence-portfolio-project-guide",
+      "excel-data-cleaning-exercise-pack"
+    ]
+  },
+  {
+    "id": "canva-social-media-design-toolkit",
+    "name": "Canva Social Media Design Toolkit",
+    "price": "£248.00",
+    "image": "/products/canva-social-media-design-toolkit.jpg",
+    "summary": "Develop canva social media design with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for canva social media design within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses review checkpoints, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user focused interface concepts, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "ui-design-principles-handbook",
+      "brand-identity-mini-project-bundle",
+      "figma-website-wireframing-workbook",
+      "design-portfolio-review-checklist-pack"
+    ]
+  },
+  {
+    "id": "career-goal-mapping-workbook",
+    "name": "Career Goal Mapping Workbook",
+    "price": "£302.00",
+    "image": "/products/career-goal-mapping-workbook.jpg",
+    "summary": "Build career goal mapping through practical lessons, helping learners approach job applications and interviews with stronger confidence.",
+    "description": "This resource gives learners a focused pathway for career goal mapping within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "professional-resume-and-linkedin-builder",
+      "workplace-readiness-soft-skills-guide",
+      "communication-skills-for-it-trainees",
+      "aptitude-and-logical-reasoning-drill-book"
+    ]
+  },
+  {
+    "id": "cloud-storage-and-google-workspace-basics",
+    "name": "Cloud Storage and Google Workspace Basics",
+    "price": "£14.00",
+    "image": "/products/cloud-storage-and-google-workspace-basics.jpg",
+    "summary": "Build cloud storage and google workspace basics through practical lessons, helping learners operate computers, cloud tools, files, and online systems independently.",
+    "description": "This professional pack combines a focused pathway for cloud storage and google workspace basics within computer confidence, safe digital habits, file control, and beginner lab practice. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "computer-basics-starter-workbook",
+      "beginner-digital-productivity-planner",
+      "keyboard-speed-and-accuracy-practice-kit",
+      "digital-safety-and-cyber-hygiene-starter-pack"
+    ]
+  },
+  {
+    "id": "communication-skills-for-it-trainees",
+    "name": "Communication Skills for IT Trainees",
+    "price": "£321.00",
+    "image": "/products/communication-skills-for-it-trainees.jpg",
+    "summary": "Improve communication skills for it trainees with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for communication skills for it trainees within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses project-based activities, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "interview-confidence-practice-manual",
+      "career-goal-mapping-workbook",
+      "workplace-readiness-soft-skills-guide",
+      "professional-resume-and-linkedin-builder"
+    ]
+  },
+  {
+    "id": "complete-placement-success-toolkit",
+    "name": "Complete Placement Success Toolkit",
+    "price": "£249.00",
+    "image": "/products/complete-placement-success-toolkit.jpg",
+    "summary": "Learn complete placement success through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for complete placement success within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "interview-confidence-practice-manual",
+      "aptitude-and-logical-reasoning-drill-book",
+      "professional-resume-and-linkedin-builder",
+      "technical-interview-notes-organizer"
+    ]
+  },
+  {
+    "id": "complete-skill-campus-operations-blueprint",
+    "name": "Complete Skill Campus Operations Blueprint",
+    "price": "£499.00",
+    "image": "/products/complete-skill-campus-operations-blueprint.jpg",
+    "summary": "Learn complete skill campus operations through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for complete skill campus operations within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "student-progress-tracking-spreadsheet-bundle",
+      "placement-cell-operations-manual",
+      "software-training-lesson-plan-library",
+      "training-center-marketing-content-kit"
+    ]
+  },
+  {
+    "id": "computer-basics-starter-workbook",
+    "name": "Computer Basics Starter Workbook",
+    "price": "£9.00",
+    "image": "/products/computer-basics-starter-workbook.jpg",
+    "summary": "Build computer basics starter through practical lessons, helping learners operate computers, cloud tools, files, and online systems independently.",
+    "description": "This resource gives learners a focused pathway for computer basics starter within computer confidence, safe digital habits, file control, and beginner lab practice. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "computer-lab-practice-assignment-bundle",
+      "beginner-digital-productivity-planner",
+      "windows-file-management-practical-guide",
+      "keyboard-speed-and-accuracy-practice-kit"
+    ]
+  },
+  {
+    "id": "computer-lab-practice-assignment-bundle",
+    "name": "Computer Lab Practice Assignment Bundle",
+    "price": "£25.00",
+    "image": "/products/computer-lab-practice-assignment-bundle.jpg",
+    "summary": "Develop computer lab practice assignment with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for computer lab practice assignment within computer confidence, safe digital habits, file control, and beginner lab practice. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "digital-literacy-instructor-resource-pack",
+      "digital-safety-and-cyber-hygiene-starter-pack",
+      "windows-file-management-practical-guide",
+      "internet-research-and-email-skills-handbook"
+    ]
+  },
+  {
+    "id": "course-curriculum-planning-template-pack",
+    "name": "Course Curriculum Planning Template Pack",
+    "price": "£443.00",
+    "image": "/products/course-curriculum-planning-template-pack.jpg",
+    "summary": "Build course curriculum planning through practical lessons, helping learners run structured training programs with measurable quality.",
+    "description": "This resource gives learners a focused pathway for course curriculum planning within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "complete-skill-campus-operations-blueprint",
+      "mock-test-and-certification-builder-kit",
+      "student-onboarding-and-orientation-pack",
+      "training-center-marketing-content-kit"
+    ]
+  },
+  {
+    "id": "css-styling-and-layout-exercise-pack",
+    "name": "CSS Styling and Layout Exercise Pack",
+    "price": "£96.00",
+    "image": "/products/css-styling-and-layout-exercise-pack.jpg",
+    "summary": "Develop css styling and layout exercise with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for css styling and layout exercise within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "javascript-dom-projects-bundle",
+      "personal-portfolio-website-blueprint",
+      "landing-page-copy-and-design-toolkit",
+      "front-end-debugging-and-browser-tools-guide"
+    ]
+  },
+  {
+    "id": "data-analytics-foundations-workbook",
+    "name": "Data Analytics Foundations Workbook",
+    "price": "£187.00",
+    "image": "/products/data-analytics-foundations-workbook.jpg",
+    "summary": "Build data analytics foundations through practical lessons, helping learners convert raw data into clear business insight and reports.",
+    "description": "This resource gives learners a focused pathway for data analytics foundations within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "data-visualization-design-handbook",
+      "real-world-dataset-practice-bundle",
+      "business-metrics-and-kpi-guide",
+      "power-bi-beginner-dashboard-kit"
+    ]
+  },
+  {
+    "id": "data-analytics-interview-preparation-pack",
+    "name": "Data Analytics Interview Preparation Pack",
+    "price": "£189.00",
+    "image": "/products/data-analytics-interview-preparation-pack.jpg",
+    "summary": "Learn data analytics interview preparation through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for data analytics interview preparation within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "excel-data-cleaning-exercise-pack",
+      "business-metrics-and-kpi-guide",
+      "real-world-dataset-practice-bundle",
+      "data-visualization-design-handbook"
+    ]
+  },
+  {
+    "id": "data-dashboard-portfolio-challenge",
+    "name": "Data Dashboard Portfolio Challenge",
+    "price": "£393.00",
+    "image": "/products/data-dashboard-portfolio-challenge.png",
+    "summary": "Learn data dashboard portfolio challenge through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for data dashboard portfolio challenge within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses self-assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "excel-business-tracker-project-kit",
+      "project-presentation-and-viva-preparation-pack",
+      "final-portfolio-review-and-improvement-kit",
+      "student-portfolio-planning-workbook"
+    ]
+  },
+  {
+    "id": "data-entry-and-office-admin-practice-set",
+    "name": "Data Entry and Office Admin Practice Set",
+    "price": "£45.00",
+    "image": "/products/data-entry-and-office-admin-practice-set.jpg",
+    "summary": "Strengthen data entry and office admin practice set using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for data entry and office admin practice set within documents, spreadsheets, presentations, and office administration workflows. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-excel-fundamentals-exercise-book",
+      "professional-resume-formatting-template-kit",
+      "advanced-excel-dashboard-starter-kit",
+      "powerpoint-presentation-design-toolkit"
+    ]
+  },
+  {
+    "id": "data-visualization-design-handbook",
+    "name": "Data Visualization Design Handbook",
+    "price": "£221.00",
+    "image": "/products/data-visualization-design-handbook.jpg",
+    "summary": "Learn data visualization design through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for data visualization design within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses self assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "power-bi-beginner-dashboard-kit",
+      "business-metrics-and-kpi-guide",
+      "data-analytics-interview-preparation-pack",
+      "real-world-dataset-practice-bundle"
+    ]
+  },
+  {
+    "id": "database-concepts-beginner-guide",
+    "name": "Database Concepts Beginner Guide",
+    "price": "£137.00",
+    "image": "/products/database-concepts-beginner-guide.jpg",
+    "summary": "Build database concepts beginner through practical lessons, helping learners connect interfaces, servers, and databases into working applications.",
+    "description": "This resource gives learners a focused pathway for database concepts beginner within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "mysql-practical-assignment-kit",
+      "full-stack-crud-project-blueprint",
+      "sql-query-practice-workbook",
+      "deployment-and-hosting-checklist-manual"
+    ]
+  },
+  {
+    "id": "deployment-and-hosting-checklist-manual",
+    "name": "Deployment and Hosting Checklist Manual",
+    "price": "£185.00",
+    "image": "/products/deployment-and-hosting-checklist-manual.jpg",
+    "summary": "Improve deployment and hosting with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for deployment and hosting within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses mentor style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "authentication-and-user-management-starter-kit",
+      "php-and-mysql-web-app-guide",
+      "backend-api-fundamentals-guide",
+      "sql-query-practice-workbook"
+    ]
+  },
+  {
+    "id": "design-portfolio-review-checklist-pack",
+    "name": "Design Portfolio Review Checklist Pack",
+    "price": "£219.00",
+    "image": "/products/design-portfolio-review-checklist-pack.jpg",
+    "summary": "Learn design portfolio review through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for design portfolio review within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "ux-research-and-user-persona-kit",
+      "ui-design-principles-handbook",
+      "photoshop-essentials-exercise-guide",
+      "illustrator-vector-design-starter-pack"
+    ]
+  },
+  {
+    "id": "digital-literacy-instructor-resource-pack",
+    "name": "Digital Literacy Instructor Resource Pack",
+    "price": "£49.00",
+    "image": "/products/digital-literacy-instructor-resource-pack.jpg",
+    "summary": "Learn digital literacy instructor resource through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for digital literacy instructor resource within computer confidence, safe digital habits, file control, and beginner lab practice. It uses step by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "internet-research-and-email-skills-handbook",
+      "digital-safety-and-cyber-hygiene-starter-pack",
+      "keyboard-speed-and-accuracy-practice-kit",
+      "computer-basics-starter-workbook"
+    ]
+  },
+  {
+    "id": "digital-poster-and-banner-design-pack",
+    "name": "Digital Poster and Banner Design Pack",
+    "price": "£283.00",
+    "image": "/products/digital-poster-and-banner-design-pack.jpg",
+    "summary": "Strengthen digital poster and banner design using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for digital poster and banner design within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "ux-research-and-user-persona-kit",
+      "graphic-design-basics-practice-book",
+      "illustrator-vector-design-starter-pack",
+      "figma-website-wireframing-workbook"
+    ]
+  },
+  {
+    "id": "digital-safety-and-cyber-hygiene-starter-pack",
+    "name": "Digital Safety and Cyber Hygiene Starter Pack",
+    "price": "£13.00",
+    "image": "/products/digital-safety-and-cyber-hygiene-starter-pack.jpg",
+    "summary": "Learn digital safety and cyber hygiene starter through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for digital safety and cyber hygiene starter within computer confidence, safe digital habits, file control, and beginner lab practice. It uses self-assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "computer-lab-practice-assignment-bundle",
+      "digital-literacy-instructor-resource-pack",
+      "computer-basics-starter-workbook",
+      "windows-file-management-practical-guide"
+    ]
+  },
+  {
+    "id": "essential-computer-troubleshooting-manual",
+    "name": "Essential Computer Troubleshooting Manual",
+    "price": "£20.00",
+    "image": "/products/essential-computer-troubleshooting-manual.jpg",
+    "summary": "Improve essential computer troubleshooting with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for essential computer troubleshooting within computer confidence, safe digital habits, file control, and beginner lab practice. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": []
+  },
+  {
+    "id": "excel-business-tracker-project-kit",
+    "name": "Excel Business Tracker Project Kit",
+    "price": "£395.00",
+    "image": "/products/excel-business-tracker-project-kit.jpg",
+    "summary": "Improve excel business tracker project with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for excel business tracker project within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "github-portfolio-setup-handbook",
+      "full-stack-capstone-project-guide",
+      "student-portfolio-planning-workbook",
+      "data-dashboard-portfolio-challenge"
+    ]
+  },
+  {
+    "id": "excel-data-cleaning-exercise-pack",
+    "name": "Excel Data Cleaning Exercise Pack",
+    "price": "£192.00",
+    "image": "/products/excel-data-cleaning-exercise-pack.jpg",
+    "summary": "Develop excel data cleaning exercise with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for excel data cleaning exercise within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses review checkpoints, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-data-analysis-starter-guide",
+      "data-analytics-foundations-workbook",
+      "data-visualization-design-handbook",
+      "data-analytics-interview-preparation-pack"
+    ]
+  },
+  {
+    "id": "excel-formula-and-functions-drill-pack",
+    "name": "Excel Formula and Functions Drill Pack",
+    "price": "£36.00",
+    "image": "/products/excel-formula-and-functions-drill-pack.jpg",
+    "summary": "Learn excel formula and functions drill through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for excel formula and functions drill within documents, spreadsheets, presentations, and office administration workflows. It uses self assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-word-essentials-practice-workbook",
+      "data-entry-and-office-admin-practice-set",
+      "office-skills-certification-preparation-pack",
+      "office-productivity-mini-projects-workbook"
+    ]
+  },
+  {
+    "id": "figma-website-wireframing-workbook",
+    "name": "Figma Website Wireframing Workbook",
+    "price": "£284.00",
+    "image": "/products/figma-website-wireframing-workbook.jpg",
+    "summary": "Build figma website wireframing through practical lessons, helping learners create polished digital visuals and user-focused interface concepts.",
+    "description": "This professional pack combines a focused pathway for figma website wireframing within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses classroom ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "photoshop-essentials-exercise-guide",
+      "illustrator-vector-design-starter-pack",
+      "graphic-design-basics-practice-book",
+      "ui-design-principles-handbook"
+    ]
+  },
+  {
+    "id": "final-portfolio-review-and-improvement-kit",
+    "name": "Final Portfolio Review and Improvement Kit",
+    "price": "£299.00",
+    "image": "/products/final-portfolio-review-and-improvement-kit.jpg",
+    "summary": "Learn final portfolio review and improvement through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for final portfolio review and improvement within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "full-stack-capstone-project-guide",
+      "beginner-web-project-assignment-pack",
+      "ui-ux-case-study-project-template",
+      "python-utility-app-project-bundle"
+    ]
+  },
+  {
+    "id": "front-end-debugging-and-browser-tools-guide",
+    "name": "Front-End Debugging and Browser Tools Guide",
+    "price": "£123.00",
+    "image": "/products/front-end-debugging-and-browser-tools-guide.jpg",
+    "summary": "Strengthen front-end debugging and browser tools using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for front-end debugging and browser tools within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "html-foundations-practical-workbook",
+      "javascript-dom-projects-bundle",
+      "landing-page-copy-and-design-toolkit",
+      "css-styling-and-layout-exercise-pack"
+    ]
+  },
+  {
+    "id": "front-end-developer-certification-prep-pack",
+    "name": "Front-End Developer Certification Prep Pack",
+    "price": "£129.00",
+    "image": "/products/front-end-developer-certification-prep-pack.jpg",
+    "summary": "Learn front-end developer certification prep through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for front-end developer certification prep within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "bootstrap-website-builder-workbook",
+      "css-styling-and-layout-exercise-pack",
+      "front-end-debugging-and-browser-tools-guide",
+      "responsive-website-design-project-guide"
+    ]
+  },
+  {
+    "id": "full-stack-capstone-project-guide",
+    "name": "Full-Stack Capstone Project Guide",
+    "price": "£406.00",
+    "image": "/products/full-stack-capstone-project-guide.jpg",
+    "summary": "Develop full-stack capstone project with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for full-stack capstone project within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "github-portfolio-setup-handbook",
+      "excel-business-tracker-project-kit",
+      "student-portfolio-planning-workbook",
+      "beginner-web-project-assignment-pack"
+    ]
+  },
+  {
+    "id": "full-stack-crud-project-blueprint",
+    "name": "Full-Stack CRUD Project Blueprint",
+    "price": "£166.00",
+    "image": "/products/full-stack-crud-project-blueprint.jpg",
+    "summary": "Develop full-stack crud project with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for full-stack crud project within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining job ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "full-stack-interview-and-project-review-pack",
+      "database-concepts-beginner-guide",
+      "backend-api-fundamentals-guide",
+      "deployment-and-hosting-checklist-manual"
+    ]
+  },
+  {
+    "id": "full-stack-interview-and-project-review-pack",
+    "name": "Full-Stack Interview and Project Review Pack",
+    "price": "£159.00",
+    "image": "/products/full-stack-interview-and-project-review-pack.jpg",
+    "summary": "Learn full-stack interview and project review through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for full-stack interview and project review within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "full-stack-crud-project-blueprint",
+      "php-and-mysql-web-app-guide",
+      "sql-query-practice-workbook",
+      "mysql-practical-assignment-kit"
+    ]
+  },
+  {
+    "id": "github-portfolio-setup-handbook",
+    "name": "GitHub Portfolio Setup Handbook",
+    "price": "£426.00",
+    "image": "/products/github-portfolio-setup-handbook.jpg",
+    "summary": "Strengthen github portfolio setup using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for github portfolio setup within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "beginner-web-project-assignment-pack",
+      "final-portfolio-review-and-improvement-kit",
+      "student-portfolio-planning-workbook",
+      "data-dashboard-portfolio-challenge"
+    ]
+  },
+  {
+    "id": "graphic-design-basics-practice-book",
+    "name": "Graphic Design Basics Practice Book",
+    "price": "£242.00",
+    "image": "/products/graphic-design-basics-practice-book.jpg",
+    "summary": "Build graphic design basics practice through practical lessons, helping learners create polished digital visuals and user-focused interface concepts.",
+    "description": "This resource gives learners a focused pathway for graphic design basics practice within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining portfolio quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "figma-website-wireframing-workbook",
+      "digital-poster-and-banner-design-pack",
+      "photoshop-essentials-exercise-guide",
+      "design-portfolio-review-checklist-pack"
+    ]
+  },
+  {
+    "id": "html-foundations-practical-workbook",
+    "name": "HTML Foundations Practical Workbook",
+    "price": "£92.00",
+    "image": "/products/html-foundations-practical-workbook.jpg",
+    "summary": "Build html foundations practical through practical lessons, helping learners design, debug, and present responsive web pages.",
+    "description": "This resource gives learners a focused pathway for html foundations practical within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "javascript-dom-projects-bundle",
+      "landing-page-copy-and-design-toolkit",
+      "bootstrap-website-builder-workbook",
+      "responsive-website-design-project-guide"
+    ]
+  },
+  {
+    "id": "illustrator-vector-design-starter-pack",
+    "name": "Illustrator Vector Design Starter Pack",
+    "price": "£260.00",
+    "image": "/products/illustrator-vector-design-starter-pack.jpg",
+    "summary": "Improve illustrator vector design starter with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for illustrator vector design starter within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses project-based activities, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user focused interface concepts, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "brand-identity-mini-project-bundle",
+      "figma-website-wireframing-workbook",
+      "canva-social-media-design-toolkit",
+      "ux-research-and-user-persona-kit"
+    ]
+  },
+  {
+    "id": "internet-research-and-email-skills-handbook",
+    "name": "Internet Research and Email Skills Handbook",
+    "price": "£11.00",
+    "image": "/products/internet-research-and-email-skills-handbook.jpg",
+    "summary": "Improve internet research and email skills with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for internet research and email skills within computer confidence, safe digital habits, file control, and beginner lab practice. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "cloud-storage-and-google-workspace-basics",
+      "computer-lab-practice-assignment-bundle",
+      "digital-safety-and-cyber-hygiene-starter-pack",
+      "keyboard-speed-and-accuracy-practice-kit"
+    ]
+  },
+  {
+    "id": "interview-confidence-practice-manual",
+    "name": "Interview Confidence Practice Manual",
+    "price": "£314.00",
+    "image": "/products/interview-confidence-practice-manual.jpg",
+    "summary": "Strengthen interview confidence practice using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for interview confidence practice within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "complete-placement-success-toolkit",
+      "job-application-tracking-spreadsheet-kit",
+      "workplace-readiness-soft-skills-guide",
+      "career-goal-mapping-workbook"
+    ]
+  },
+  {
+    "id": "javascript-basics-coding-notebook",
+    "name": "JavaScript Basics Coding Notebook",
+    "price": "£114.00",
+    "image": "/products/javascript-basics-coding-notebook.jpg",
+    "summary": "Strengthen javascript basics coding notebook using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for javascript basics coding notebook within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "javascript-dom-projects-bundle",
+      "html-foundations-practical-workbook",
+      "responsive-website-design-project-guide",
+      "personal-portfolio-website-blueprint"
+    ]
+  },
+  {
+    "id": "javascript-dom-projects-bundle",
+    "name": "JavaScript DOM Projects Bundle",
+    "price": "£118.00",
+    "image": "/products/javascript-dom-projects-bundle.jpg",
+    "summary": "Develop javascript dom projects with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for javascript dom projects within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "front-end-debugging-and-browser-tools-guide",
+      "css-styling-and-layout-exercise-pack",
+      "responsive-website-design-project-guide",
+      "bootstrap-website-builder-workbook"
+    ]
+  },
+  {
+    "id": "job-application-tracking-spreadsheet-kit",
+    "name": "Job Application Tracking Spreadsheet Kit",
+    "price": "£362.00",
+    "image": "/products/job-application-tracking-spreadsheet-kit.jpg",
+    "summary": "Develop job application tracking spreadsheet with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for job application tracking spreadsheet within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "complete-placement-success-toolkit",
+      "workplace-readiness-soft-skills-guide",
+      "mock-interview-evaluation-form-bundle",
+      "technical-interview-notes-organizer"
+    ]
+  },
+  {
+    "id": "keyboard-speed-and-accuracy-practice-kit",
+    "name": "Keyboard Speed and Accuracy Practice Kit",
+    "price": "£10.00",
+    "image": "/products/keyboard-speed-and-accuracy-practice-kit.jpg",
+    "summary": "Strengthen keyboard speed and accuracy practice using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for keyboard speed and accuracy practice within computer confidence, safe digital habits, file control, and beginner lab practice. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "beginner-digital-productivity-planner",
+      "digital-safety-and-cyber-hygiene-starter-pack",
+      "internet-research-and-email-skills-handbook",
+      "digital-literacy-instructor-resource-pack"
+    ]
+  },
+  {
+    "id": "landing-page-copy-and-design-toolkit",
+    "name": "Landing Page Copy and Design Toolkit",
+    "price": "£118.00",
+    "image": "/products/landing-page-copy-and-design-toolkit.jpg",
+    "summary": "Learn landing page copy and design through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for landing page copy and design within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses self assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "responsive-website-design-project-guide",
+      "javascript-basics-coding-notebook",
+      "javascript-dom-projects-bundle",
+      "bootstrap-website-builder-workbook"
+    ]
+  },
+  {
+    "id": "microsoft-excel-fundamentals-exercise-book",
+    "name": "Microsoft Excel Fundamentals Exercise Book",
+    "price": "£42.00",
+    "image": "/products/microsoft-excel-fundamentals-exercise-book.jpg",
+    "summary": "Improve microsoft excel fundamentals exercise with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for microsoft excel fundamentals exercise within documents, spreadsheets, presentations, and office administration workflows. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-word-essentials-practice-workbook",
+      "professional-resume-formatting-template-kit",
+      "advanced-excel-dashboard-starter-kit",
+      "data-entry-and-office-admin-practice-set"
+    ]
+  },
+  {
+    "id": "microsoft-word-essentials-practice-workbook",
+    "name": "Microsoft Word Essentials Practice Workbook",
+    "price": "£38.00",
+    "image": "/products/microsoft-word-essentials-practice-workbook.jpg",
+    "summary": "Build microsoft word essentials practice through practical lessons, helping learners produce workplace-ready documents, dashboards, and administrative outputs.",
+    "description": "This resource gives learners a focused pathway for microsoft word essentials practice within documents, spreadsheets, presentations, and office administration workflows. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-excel-fundamentals-exercise-book",
+      "powerpoint-presentation-design-toolkit",
+      "office-skills-certification-preparation-pack",
+      "data-entry-and-office-admin-practice-set"
+    ]
+  },
+  {
+    "id": "mock-interview-evaluation-form-bundle",
+    "name": "Mock Interview Evaluation Form Bundle",
+    "price": "£353.00",
+    "image": "/products/mock-interview-evaluation-form-bundle.png",
+    "summary": "Improve mock interview evaluation form with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for mock interview evaluation form within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "communication-skills-for-it-trainees",
+      "career-goal-mapping-workbook",
+      "aptitude-and-logical-reasoning-drill-book",
+      "job-application-tracking-spreadsheet-kit"
+    ]
+  },
+  {
+    "id": "mock-test-and-certification-builder-kit",
+    "name": "Mock Test and Certification Builder Kit",
+    "price": "£493.00",
+    "image": "/products/mock-test-and-certification-builder-kit.jpg",
+    "summary": "Strengthen mock test and certification using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for mock test and certification within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses guided exercises, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining better practical judgment for placement preparation and professional growth",
+    "relatedProductIds": [
+      "course-curriculum-planning-template-pack",
+      "training-center-marketing-content-kit",
+      "student-progress-tracking-spreadsheet-bundle",
+      "student-onboarding-and-orientation-pack"
+    ]
+  },
+  {
+    "id": "mysql-practical-assignment-kit",
+    "name": "MySQL Practical Assignment Kit",
+    "price": "£146.00",
+    "image": "/products/mysql-practical-assignment-kit.jpg",
+    "summary": "Strengthen mysql practical assignment using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for mysql practical assignment within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "database-concepts-beginner-guide",
+      "full-stack-interview-and-project-review-pack",
+      "full-stack-crud-project-blueprint",
+      "deployment-and-hosting-checklist-manual"
+    ]
+  },
+  {
+    "id": "node-js-starter-project-workbook",
+    "name": "Node.js Starter Project Workbook",
+    "price": "£156.00",
+    "image": "/products/node-js-starter-project-workbook.jpg",
+    "summary": "Learn node.js starter project through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for node.js starter project within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses self-assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "backend-api-fundamentals-guide",
+      "full-stack-crud-project-blueprint",
+      "mysql-practical-assignment-kit",
+      "sql-query-practice-workbook"
+    ]
+  },
+  {
+    "id": "object-oriented-python-learning-guide",
+    "name": "Object-Oriented Python Learning Guide",
+    "price": "£65.00",
+    "image": "/products/object-oriented-python-learning-guide.jpg",
+    "summary": "Improve object-oriented python learning with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for object-oriented python learning within coding logic, Python syntax, debugging, automation, and beginner projects. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-interview-practice-question-bank",
+      "python-for-data-handling-starter-pack",
+      "python-file-handling-and-automation-kit",
+      "python-debugging-and-error-fixing-manual"
+    ]
+  },
+  {
+    "id": "office-productivity-mini-projects-workbook",
+    "name": "Office Productivity Mini Projects Workbook",
+    "price": "£42.00",
+    "image": "/products/office-productivity-mini-projects-workbook.jpg",
+    "summary": "Develop office productivity mini projects with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for office productivity mini projects within documents, spreadsheets, presentations, and office administration workflows. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "microsoft-excel-fundamentals-exercise-book",
+      "advanced-excel-dashboard-starter-kit",
+      "microsoft-word-essentials-practice-workbook",
+      "data-entry-and-office-admin-practice-set"
+    ]
+  },
+  {
+    "id": "office-skills-certification-preparation-pack",
+    "name": "Office Skills Certification Preparation Pack",
+    "price": "£79.00",
+    "image": "/products/office-skills-certification-preparation-pack.jpg",
+    "summary": "Learn office skills certification preparation through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for office skills certification preparation within documents, spreadsheets, presentations, and office administration workflows. It uses step by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "advanced-excel-dashboard-starter-kit",
+      "microsoft-excel-fundamentals-exercise-book",
+      "business-letter-and-email-writing-pack",
+      "office-productivity-mini-projects-workbook"
+    ]
+  },
+  {
+    "id": "personal-portfolio-website-blueprint",
+    "name": "Personal Portfolio Website Blueprint",
+    "price": "£127.00",
+    "image": "/products/personal-portfolio-website-blueprint.jpg",
+    "summary": "Improve personal portfolio website with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for personal portfolio website within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "css-styling-and-layout-exercise-pack",
+      "bootstrap-website-builder-workbook",
+      "javascript-dom-projects-bundle",
+      "front-end-debugging-and-browser-tools-guide"
+    ]
+  },
+  {
+    "id": "photoshop-essentials-exercise-guide",
+    "name": "Photoshop Essentials Exercise Guide",
+    "price": "£263.00",
+    "image": "/products/photoshop-essentials-exercise-guide.png",
+    "summary": "Strengthen photoshop essentials exercise using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for photoshop essentials exercise within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "design-portfolio-review-checklist-pack",
+      "ux-research-and-user-persona-kit",
+      "brand-identity-mini-project-bundle",
+      "figma-website-wireframing-workbook"
+    ]
+  },
+  {
+    "id": "php-and-mysql-web-app-guide",
+    "name": "PHP and MySQL Web App Guide",
+    "price": "£161.00",
+    "image": "/products/php-and-mysql-web-app-guide.jpg",
+    "summary": "Build php and mysql web app through practical lessons, helping learners connect interfaces, servers, and databases into working applications.",
+    "description": "This professional pack combines a focused pathway for php and mysql web app within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "backend-api-fundamentals-guide",
+      "deployment-and-hosting-checklist-manual",
+      "mysql-practical-assignment-kit",
+      "sql-query-practice-workbook"
+    ]
+  },
+  {
+    "id": "placement-cell-operations-manual",
+    "name": "Placement Cell Operations Manual",
+    "price": "£477.00",
+    "image": "/products/placement-cell-operations-manual.jpg",
+    "summary": "Develop placement cell operations with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for placement cell operations within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "practical-lab-assessment-rubric-pack",
+      "training-quality-audit-checklist-system",
+      "complete-skill-campus-operations-blueprint",
+      "software-training-lesson-plan-library"
+    ]
+  },
+  {
+    "id": "power-bi-beginner-dashboard-kit",
+    "name": "Power BI Beginner Dashboard Kit",
+    "price": "£203.00",
+    "image": "/products/power-bi-beginner-dashboard-kit.jpg",
+    "summary": "Improve power bi beginner dashboard with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for power bi beginner dashboard within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "business-metrics-and-kpi-guide",
+      "data-analytics-foundations-workbook",
+      "analytics-report-writing-template-pack",
+      "business-intelligence-portfolio-project-guide"
+    ]
+  },
+  {
+    "id": "powerpoint-presentation-design-toolkit",
+    "name": "PowerPoint Presentation Design Toolkit",
+    "price": "£39.00",
+    "image": "/products/powerpoint-presentation-design-toolkit.jpg",
+    "summary": "Build powerpoint presentation design through practical lessons, helping learners produce workplace-ready documents, dashboards, and administrative outputs.",
+    "description": "This professional pack combines a focused pathway for powerpoint presentation design within documents, spreadsheets, presentations, and office administration workflows. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "professional-resume-formatting-template-kit",
+      "microsoft-excel-fundamentals-exercise-book",
+      "office-skills-certification-preparation-pack",
+      "excel-formula-and-functions-drill-pack"
+    ]
+  },
+  {
+    "id": "practical-lab-assessment-rubric-pack",
+    "name": "Practical Lab Assessment Rubric Pack",
+    "price": "£455.00",
+    "image": "/products/practical-lab-assessment-rubric-pack.jpg",
+    "summary": "Improve practical lab assessment rubric with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for practical lab assessment rubric within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "course-curriculum-planning-template-pack",
+      "student-onboarding-and-orientation-pack",
+      "mock-test-and-certification-builder-kit",
+      "complete-skill-campus-operations-blueprint"
+    ]
+  },
+  {
+    "id": "professional-resume-and-linkedin-builder",
+    "name": "Professional Resume and LinkedIn Builder",
+    "price": "£308.00",
+    "image": "/products/professional-resume-and-linkedin-builder.jpg",
+    "summary": "Develop professional resume and linkedin with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for professional resume and linkedin within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses review checkpoints, realistic examples, and review checkpoints that match career oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "aptitude-and-logical-reasoning-drill-book",
+      "communication-skills-for-it-trainees",
+      "career-goal-mapping-workbook",
+      "interview-confidence-practice-manual"
+    ]
+  },
+  {
+    "id": "professional-resume-formatting-template-kit",
+    "name": "Professional Resume Formatting Template Kit",
+    "price": "£27.00",
+    "image": "/products/professional-resume-formatting-template-kit.jpg",
+    "summary": "Develop professional resume formatting with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for professional resume formatting within documents, spreadsheets, presentations, and office administration workflows. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can produce workplace-ready documents, dashboards, and administrative outputs, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "business-letter-and-email-writing-pack",
+      "data-entry-and-office-admin-practice-set",
+      "office-productivity-mini-projects-workbook",
+      "microsoft-word-essentials-practice-workbook"
+    ]
+  },
+  {
+    "id": "programming-logic-beginner-workbook",
+    "name": "Programming Logic Beginner Workbook",
+    "price": "£63.00",
+    "image": "/products/programming-logic-beginner-workbook.jpg",
+    "summary": "Build programming logic beginner through practical lessons, helping learners write, test, explain, and improve practical Python programs.",
+    "description": "This resource gives learners a focused pathway for programming logic beginner within coding logic, Python syntax, debugging, automation, and beginner projects. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-debugging-and-error-fixing-manual",
+      "object-oriented-python-learning-guide",
+      "python-for-data-handling-starter-pack",
+      "python-file-handling-and-automation-kit"
+    ]
+  },
+  {
+    "id": "project-presentation-and-viva-preparation-pack",
+    "name": "Project Presentation and Viva Preparation Pack",
+    "price": "£420.00",
+    "image": "/products/project-presentation-and-viva-preparation-pack.jpg",
+    "summary": "Improve project presentation and viva preparation with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for project presentation and viva preparation within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "beginner-web-project-assignment-pack",
+      "python-utility-app-project-bundle",
+      "full-stack-capstone-project-guide",
+      "github-portfolio-setup-handbook"
+    ]
+  },
+  {
+    "id": "python-data-analysis-starter-guide",
+    "name": "Python Data Analysis Starter Guide",
+    "price": "£223.00",
+    "image": "/products/python-data-analysis-starter-guide.jpg",
+    "summary": "Build python data analysis starter through practical lessons, helping learners convert raw data into clear business insight and reports.",
+    "description": "This professional pack combines a focused pathway for python data analysis starter within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "analytics-report-writing-template-pack",
+      "data-analytics-foundations-workbook",
+      "business-metrics-and-kpi-guide",
+      "excel-data-cleaning-exercise-pack"
+    ]
+  },
+  {
+    "id": "python-debugging-and-error-fixing-manual",
+    "name": "Python Debugging and Error Fixing Manual",
+    "price": "£72.00",
+    "image": "/products/python-debugging-and-error-fixing-manual.jpg",
+    "summary": "Build python debugging and error fixing through practical lessons, helping learners write, test, explain, and improve practical Python programs.",
+    "description": "This professional pack combines a focused pathway for python debugging and error fixing within coding logic, Python syntax, debugging, automation, and beginner projects. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-for-data-handling-starter-pack",
+      "python-foundation-instructor-lesson-pack",
+      "python-interview-practice-question-bank",
+      "programming-logic-beginner-workbook"
+    ]
+  },
+  {
+    "id": "python-file-handling-and-automation-kit",
+    "name": "Python File Handling and Automation Kit",
+    "price": "£69.00",
+    "image": "/products/python-file-handling-and-automation-kit.jpg",
+    "summary": "Learn python file handling and automation through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for python file handling and automation within coding logic, Python syntax, debugging, automation, and beginner projects. It uses self assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-syntax-and-practice-notebook",
+      "object-oriented-python-learning-guide",
+      "python-interview-practice-question-bank",
+      "python-foundation-instructor-lesson-pack"
+    ]
+  },
+  {
+    "id": "python-for-data-handling-starter-pack",
+    "name": "Python for Data Handling Starter Pack",
+    "price": "£89.00",
+    "image": "/products/python-for-data-handling-starter-pack.jpg",
+    "summary": "Strengthen python for data handling starter using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for python for data handling starter within coding logic, Python syntax, debugging, automation, and beginner projects. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-syntax-and-practice-notebook",
+      "python-interview-practice-question-bank",
+      "python-foundation-instructor-lesson-pack",
+      "programming-logic-beginner-workbook"
+    ]
+  },
+  {
+    "id": "python-foundation-instructor-lesson-pack",
+    "name": "Python Foundation Instructor Lesson Pack",
+    "price": "£99.00",
+    "image": "/products/python-foundation-instructor-lesson-pack.jpg",
+    "summary": "Learn python foundation instructor lesson through hands-on activities that make software training easier to apply.",
+    "description": "Practical activities help learners master a focused pathway for python foundation instructor lesson within coding logic, Python syntax, debugging, automation, and beginner projects. It uses step-by-step worksheets, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining measurable skill progress for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-problem-solving-challenge-set",
+      "python-for-data-handling-starter-pack",
+      "object-oriented-python-learning-guide",
+      "python-file-handling-and-automation-kit"
+    ]
+  },
+  {
+    "id": "python-interview-practice-question-bank",
+    "name": "Python Interview Practice Question Bank",
+    "price": "£84.00",
+    "image": "/products/python-interview-practice-question-bank.jpg",
+    "summary": "Improve python interview practice question bank with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for python interview practice question bank within coding logic, Python syntax, debugging, automation, and beginner projects. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-for-data-handling-starter-pack",
+      "python-foundation-instructor-lesson-pack",
+      "python-file-handling-and-automation-kit",
+      "python-syntax-and-practice-notebook"
+    ]
+  },
+  {
+    "id": "python-mini-projects-portfolio-bundle",
+    "name": "Python Mini Projects Portfolio Bundle",
+    "price": "£76.00",
+    "image": "/products/python-mini-projects-portfolio-bundle.jpg",
+    "summary": "Develop python mini projects portfolio with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for python mini projects portfolio within coding logic, Python syntax, debugging, automation, and beginner projects. It uses hands-on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-debugging-and-error-fixing-manual",
+      "python-syntax-and-practice-notebook",
+      "python-for-data-handling-starter-pack",
+      "programming-logic-beginner-workbook"
+    ]
+  },
+  {
+    "id": "python-problem-solving-challenge-set",
+    "name": "Python Problem Solving Challenge Set",
+    "price": "£61.00",
+    "image": "/products/python-problem-solving-challenge-set.jpg",
+    "summary": "Strengthen python problem solving challenge set using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for python problem solving challenge set within coding logic, Python syntax, debugging, automation, and beginner projects. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-file-handling-and-automation-kit",
+      "python-mini-projects-portfolio-bundle",
+      "python-syntax-and-practice-notebook",
+      "python-debugging-and-error-fixing-manual"
+    ]
+  },
+  {
+    "id": "python-syntax-and-practice-notebook",
+    "name": "Python Syntax and Practice Notebook",
+    "price": "£71.00",
+    "image": "/products/python-syntax-and-practice-notebook.jpg",
+    "summary": "Develop python syntax and practice notebook with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for python syntax and practice notebook within coding logic, Python syntax, debugging, automation, and beginner projects. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can write, test, explain, and improve practical Python programs, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-interview-practice-question-bank",
+      "programming-logic-beginner-workbook",
+      "object-oriented-python-learning-guide",
+      "python-mini-projects-portfolio-bundle"
+    ]
+  },
+  {
+    "id": "python-utility-app-project-bundle",
+    "name": "Python Utility App Project Bundle",
+    "price": "£379.00",
+    "image": "/products/python-utility-app-project-bundle.jpg",
+    "summary": "Strengthen python utility app project using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for python utility app project within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "github-portfolio-setup-handbook",
+      "beginner-web-project-assignment-pack",
+      "excel-business-tracker-project-kit",
+      "ui-ux-case-study-project-template"
+    ]
+  },
+  {
+    "id": "real-world-dataset-practice-bundle",
+    "name": "Real-World Dataset Practice Bundle",
+    "price": "£219.00",
+    "image": "/products/real-world-dataset-practice-bundle.jpg",
+    "summary": "Develop real-world dataset practice with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "The workbook guides learners through a focused pathway for real-world dataset practice within data cleaning, KPI thinking, dashboard design, BI reporting, and insight communication. It uses hands on drills, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can convert raw data into clear business insight and reports, gaining job-ready discipline for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "python-data-analysis-starter-guide",
+      "data-analytics-interview-preparation-pack",
+      "power-bi-beginner-dashboard-kit",
+      "data-visualization-design-handbook"
+    ]
+  },
+  {
+    "id": "responsive-website-design-project-guide",
+    "name": "Responsive Website Design Project Guide",
+    "price": "£105.00",
+    "image": "/products/responsive-website-design-project-guide.jpg",
+    "summary": "Improve responsive website design project with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "Through structured practice, this product builds a focused pathway for responsive website design project within HTML, CSS, JavaScript, responsive layouts, and portfolio website development. It uses project-based activities, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can design, debug, and present responsive web pages, gaining workplace-ready execution for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "javascript-dom-projects-bundle",
+      "javascript-basics-coding-notebook",
+      "html-foundations-practical-workbook",
+      "personal-portfolio-website-blueprint"
+    ]
+  },
+  {
+    "id": "software-training-lesson-plan-library",
+    "name": "Software Training Lesson Plan Library",
+    "price": "£441.00",
+    "image": "/products/software-training-lesson-plan-library.jpg",
+    "summary": "Develop software training lesson plan with guided exercises, mentor notes, and career focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for software training lesson plan within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "practical-lab-assessment-rubric-pack",
+      "mock-test-and-certification-builder-kit",
+      "student-progress-tracking-spreadsheet-bundle",
+      "course-curriculum-planning-template-pack"
+    ]
+  },
+  {
+    "id": "sql-query-practice-workbook",
+    "name": "SQL Query Practice Workbook",
+    "price": "£150.00",
+    "image": "/products/sql-query-practice-workbook.jpg",
+    "summary": "Develop sql query practice with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for sql query practice within SQL, databases, backend APIs, CRUD workflows, security basics, and deployment. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can connect interfaces, servers, and databases into working applications, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "node-js-starter-project-workbook",
+      "full-stack-crud-project-blueprint",
+      "deployment-and-hosting-checklist-manual",
+      "authentication-and-user-management-starter-kit"
+    ]
+  },
+  {
+    "id": "student-onboarding-and-orientation-pack",
+    "name": "Student Onboarding and Orientation Pack",
+    "price": "£469.00",
+    "image": "/products/student-onboarding-and-orientation-pack.jpg",
+    "summary": "Build student onboarding and orientation through practical lessons, helping learners run structured training programs with measurable quality.",
+    "description": "This professional pack combines a focused pathway for student onboarding and orientation within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses classroom-ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "training-center-marketing-content-kit",
+      "practical-lab-assessment-rubric-pack",
+      "training-quality-audit-checklist-system",
+      "student-progress-tracking-spreadsheet-bundle"
+    ]
+  },
+  {
+    "id": "student-portfolio-planning-workbook",
+    "name": "Student Portfolio Planning Workbook",
+    "price": "£366.00",
+    "image": "/products/student-portfolio-planning-workbook.jpg",
+    "summary": "Build student portfolio planning through practical lessons, helping learners showcase practical proof of skill through completed projects.",
+    "description": "This resource gives learners a focused pathway for student portfolio planning within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses practice tasks, realistic examples, and review checkpoints that match career-oriented software training. The content is self contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining portfolio-quality evidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "excel-business-tracker-project-kit",
+      "github-portfolio-setup-handbook",
+      "ui-ux-case-study-project-template",
+      "beginner-web-project-assignment-pack"
+    ]
+  },
+  {
+    "id": "student-progress-tracking-spreadsheet-bundle",
+    "name": "Student Progress Tracking Spreadsheet Bundle",
+    "price": "£448.00",
+    "image": "/products/student-progress-tracking-spreadsheet-bundle.jpg",
+    "summary": "Strengthen student progress tracking spreadsheet using classroom-ready activities designed for practical skill growth.",
+    "description": "Learners receive a focused pathway for student progress tracking spreadsheet within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses real-world examples, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining independent problem solving for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "student-onboarding-and-orientation-pack",
+      "training-center-marketing-content-kit",
+      "mock-test-and-certification-builder-kit",
+      "complete-skill-campus-operations-blueprint"
+    ]
+  },
+  {
+    "id": "technical-interview-notes-organizer",
+    "name": "Technical Interview Notes Organizer",
+    "price": "£333.00",
+    "image": "/products/technical-interview-notes-organizer.jpg",
+    "summary": "Build technical interview notes through practical lessons, helping learners approach job applications and interviews with stronger confidence.",
+    "description": "This professional pack combines a focused pathway for technical interview notes within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses classroom ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "communication-skills-for-it-trainees",
+      "aptitude-and-logical-reasoning-drill-book",
+      "career-goal-mapping-workbook",
+      "job-application-tracking-spreadsheet-kit"
+    ]
+  },
+  {
+    "id": "training-center-marketing-content-kit",
+    "name": "Training Center Marketing Content Kit",
+    "price": "£462.00",
+    "image": "/products/training-center-marketing-content-kit.jpg",
+    "summary": "Learn training center marketing content through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for training center marketing content within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses self-assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "complete-skill-campus-operations-blueprint",
+      "course-curriculum-planning-template-pack",
+      "training-quality-audit-checklist-system",
+      "student-onboarding-and-orientation-pack"
+    ]
+  },
+  {
+    "id": "training-quality-audit-checklist-system",
+    "name": "Training Quality Audit Checklist System",
+    "price": "£499.00",
+    "image": "/products/training-quality-audit-checklist-system.jpg",
+    "summary": "Improve training quality audit with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for training quality audit within curriculum planning, lesson delivery, student tracking, assessments, placement operations, and quality control. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can run structured training programs with measurable quality, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "practical-lab-assessment-rubric-pack",
+      "course-curriculum-planning-template-pack",
+      "placement-cell-operations-manual",
+      "software-training-lesson-plan-library"
+    ]
+  },
+  {
+    "id": "ui-design-principles-handbook",
+    "name": "UI Design Principles Handbook",
+    "price": "£265.00",
+    "image": "/products/ui-design-principles-handbook.jpg",
+    "summary": "Learn ui design principles through hands-on activities that make software training easier to apply.",
+    "description": "Students use this resource to develop a focused pathway for ui design principles within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses self assessment checklists, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining structured learning momentum for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "ux-research-and-user-persona-kit",
+      "photoshop-essentials-exercise-guide",
+      "design-portfolio-review-checklist-pack",
+      "figma-website-wireframing-workbook"
+    ]
+  },
+  {
+    "id": "ui-ux-case-study-project-template",
+    "name": "UI/UX Case Study Project Template",
+    "price": "£400.00",
+    "image": "/products/ui-ux-case-study-project-template.jpg",
+    "summary": "Build ui/ux case study project through practical lessons, helping learners showcase practical proof of skill through completed projects.",
+    "description": "This professional pack combines a focused pathway for ui/ux case study project within capstone planning, portfolio assets, GitHub presentation, demos, and project reviews. It uses classroom ready templates, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can showcase practical proof of skill through completed projects, gaining stronger confidence for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "student-portfolio-planning-workbook",
+      "data-dashboard-portfolio-challenge",
+      "excel-business-tracker-project-kit",
+      "project-presentation-and-viva-preparation-pack"
+    ]
+  },
+  {
+    "id": "ux-research-and-user-persona-kit",
+    "name": "UX Research and User Persona Kit",
+    "price": "£290.00",
+    "image": "/products/ux-research-and-user-persona-kit.jpg",
+    "summary": "Improve ux research and user persona with structured examples, review checkpoints, and professional training outcomes.",
+    "description": "This downloadable product supports a focused pathway for ux research and user persona within visual design, UI layouts, creative software workflows, branding, and portfolio presentation. It uses mentor-style notes, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can create polished digital visuals and user-focused interface concepts, gaining clearer professional output for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "design-portfolio-review-checklist-pack",
+      "digital-poster-and-banner-design-pack",
+      "figma-website-wireframing-workbook",
+      "canva-social-media-design-toolkit"
+    ]
+  },
+  {
+    "id": "windows-file-management-practical-guide",
+    "name": "Windows File Management Practical Guide",
+    "price": "£9.00",
+    "image": "/products/windows-file-management-practical-guide.jpg",
+    "summary": "Develop windows file management practical with guided exercises, mentor notes, and career-focused practice tasks.",
+    "description": "Designed for skill-focused training, this product provides a focused pathway for windows file management practical within computer confidence, safe digital habits, file control, and beginner lab practice. It uses review checkpoints, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can operate computers, cloud tools, files, and online systems independently, gaining interview-ready preparation for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "internet-research-and-email-skills-handbook",
+      "digital-safety-and-cyber-hygiene-starter-pack",
+      "computer-lab-practice-assignment-bundle",
+      "beginner-digital-productivity-planner"
+    ]
+  },
+  {
+    "id": "workplace-readiness-soft-skills-guide",
+    "name": "Workplace Readiness Soft Skills Guide",
+    "price": "£346.00",
+    "image": "/products/workplace-readiness-soft-skills-guide.jpg",
+    "summary": "Strengthen workplace readiness soft skills using classroom-ready activities designed for practical skill growth.",
+    "description": "Built for career-oriented classrooms, it offers a focused pathway for workplace readiness soft skills within resume writing, interviews, aptitude practice, communication, and placement tracking. It uses guided exercises, realistic examples, and review checkpoints that match career-oriented software training. The content is self-contained, making it useful for classroom delivery, self-study, revision, and mentor-guided practice. By completion, learners can approach job applications and interviews with stronger confidence, gaining better practical judgment for placement preparation and professional growth.",
+    "relatedProductIds": [
+      "aptitude-and-logical-reasoning-drill-book",
+      "interview-confidence-practice-manual",
+      "career-goal-mapping-workbook",
+      "complete-placement-success-toolkit"
+    ]
+  }
+]

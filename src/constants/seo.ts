@@ -8,19 +8,19 @@ export interface SeoConfig {
 
 export const SITE_METADATA = {
   siteName: "WeGrow Skill Campus",
-  defaultTitle: "WeGrow Skill Campus | Skills, Careers & Industry-Focused Training",
+  defaultTitle: "WeGrow Skill Campus UK | IT Courses & Career Training",
   defaultDescription:
-    "Industry-focused training, practical learning, career guidance, real-world exposure and placement support through WeGrow Skill Campus.",
-  siteUrl: "https://www.wegrowskillcampus.example", // Placeholder domain until confirmed
+    "Explore practical IT courses, project-based learning and career support for students, graduates and working professionals in the UK.",
+  siteUrl: "https://wegrowcampus.co.uk",
   ogImage: "/images/og-image.jpg",
   twitterHandle: "@wegrowcampus",
 };
 
 export const PAGE_SEO: Record<string, SeoConfig> = {
   home: {
-    title: "WeGrow Skill Campus | Skills, Careers & Industry-Focused Training",
+    title: SITE_METADATA.defaultTitle,
     description:
-      "Industry-focused training, practical learning, career guidance, real-world exposure and placement support through WeGrow Skill Campus.",
+      SITE_METADATA.defaultDescription,
     canonicalUrl: "/",
     ogType: "website",
     ogImage: "/images/og-image.jpg",
@@ -52,7 +52,7 @@ export const PAGE_SEO: Record<string, SeoConfig> = {
   placements: {
     title: "Career Support | WeGrow Skill Campus",
     description:
-      "Explore resume, interview, communication, and career-planning support at WeGrow Skill Campus.",
+      "Explore CV, interview, communication, and career-planning support at WeGrow Skill Campus.",
     canonicalUrl: "/placements",
     ogType: "website",
     ogImage: "/images/og-image.jpg",

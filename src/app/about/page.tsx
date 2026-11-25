@@ -23,7 +23,7 @@ const learningApproach = [
   ["Learn", "Understand core concepts through structured instruction and guided learning activities."],
   ["Practice", "Strengthen your understanding through exercises, demonstrations, assignments, and tool-based activities."],
   ["Apply", "Work on projects and practical scenarios that encourage independent thinking and problem-solving."],
-  ["Prepare", "Develop professional communication, presentation, resume, and interview skills."],
+  ["Prepare", "Develop professional communication, presentation, CV and interview skills."],
   ["Progress", "Review your development, identify areas for improvement, and continue building your capabilities."],
 ];
 
@@ -45,8 +45,8 @@ export default function AboutPage() {
     <div className="bg-brand-bg pb-16 sm:pb-20">
       <PageHero
         eyebrow="About WeGrow"
-        title="About WeGrow Skill Campus"
-        description="WeGrow Skill Campus helps students develop technical skills and prepare for career opportunities through practical learning, industry-relevant knowledge, and personal development."
+        title="About WeGrow Skill Campus UK"
+        description="We help students, graduates and working professionals in the UK build practical technology skills and prepare for their next career step."
         image="/about-section.png"
         imageAlt="WeGrow Skill Campus learning centre"
         imagePosition="object-center"

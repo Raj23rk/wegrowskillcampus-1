@@ -10,21 +10,20 @@ import {
   Target,
   Sparkles,
   ShieldCheck,
-  TrendingUp,
 } from "lucide-react";
 
 export const LandingWhyChoose: React.FC = () => {
   const reasons = [
     {
       icon: Briefcase,
-      title: "100% Placement Assistance Cell",
-      description: "Dedicated campus placement drives, recruiter matchmaking, unlimited interview opportunities, and personalized placement coordination till you secure an offer letter.",
+      title: "Career and Placement Support",
+      description: "Prepare for applications with CV feedback, mock interviews and career guidance.",
       badge: "Placement First",
     },
     {
       icon: Code2,
-      title: "100% Practical & Project-First Training",
-      description: "Skip theoretical rote learning. Write real enterprise code from Day 1 in modern IDEs, build 6-10 portfolio projects, and deploy live applications on cloud platforms.",
+      title: "Practical, Project-Based Training",
+      description: "Apply what you learn through practical exercises and projects you can discuss in interviews.",
       badge: "Real Projects",
     },
     {
@@ -35,21 +34,21 @@ export const LandingWhyChoose: React.FC = () => {
     },
     {
       icon: Building,
-      title: "Corporate-Grade Smart Campus Infrastructure",
-      description: "Fully air-conditioned interactive smart classrooms, ergonomic seating, high-speed dedicated fibre internet, executive boardrooms, and creative collaboration lounges.",
-      badge: "World-Class Labs",
+      title: "Guided Practical Work",
+      description: "Ask questions as you work through tools, exercises and assignments with support from trainers.",
+      badge: "Trainer Support",
     },
     {
       icon: Target,
-      title: "Local Excellence: Sivakasi • Sattur • Srivilliputtur",
-      description: "Access Chennai and Bangalore-level tech curriculum and high-paying career launches right in your home region without incurring heavy metro relocation costs.",
-      badge: "Regional Access",
+      title: "UK Admissions in Brentford",
+      description: "Speak to our Brentford team about entry requirements, course dates and learning formats.",
+      badge: "UK Course Advice",
     },
     {
       icon: ShieldCheck,
-      title: "End-to-End Interview Readiness",
-      description: "Rigorous 360-degree training covering technical interview drills, DS & Algo rounds, MNC aptitude tests, resume engineering, and English corporate communication bootcamps.",
-      badge: "Complete Grooming",
+      title: "Interview Preparation",
+      description: "Practise technical questions and learn to explain your skills and projects to employers.",
+      badge: "Interview Skills",
     },
   ];
 
@@ -102,7 +101,7 @@ export const LandingWhyChoose: React.FC = () => {
 
                 <div className="mt-5 border-t border-slate-100 pt-3 flex items-center gap-2 text-xs font-semibold text-brand-navy">
                   <CheckCircle className="w-4 h-4 text-emerald-500" />
-                  <span>Guaranteed Skill Transformation</span>
+                  <span>Support for Your Next Step</span>
                 </div>
               </div>
             );
@@ -116,10 +115,10 @@ export const LandingWhyChoose: React.FC = () => {
               Transform Your Career in 2026
             </span>
             <h3 className="text-xl sm:text-2xl font-black text-white mt-1">
-              Ready to visit our campus and talk to our lead faculty?
+              Ready to talk through your course options?
             </h3>
             <p className="text-sm text-blue-100 mt-1 max-w-xl">
-              Walk in anytime between 9:00 AM and 7:00 PM at Sivakasi or Srivilliputtur, or book a free counselling slot.
+              Book a free counselling session with the UK admissions team.
             </p>
           </div>
 
@@ -127,7 +126,7 @@ export const LandingWhyChoose: React.FC = () => {
             href="#enquiry-form-section"
             className="shrink-0 inline-flex items-center justify-center gap-2 rounded-xl bg-brand-orange px-6 py-3.5 text-sm font-bold text-white shadow-md hover:bg-orange-600 transition"
           >
-            <span>Book Campus Tour &amp; Counselling</span>
+            <span>Book Free Counselling</span>
           </a>
         </div>
       </div>

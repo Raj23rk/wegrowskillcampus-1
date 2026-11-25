@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { COURSES } from "@/constants/courses";
 import LandingHero from "./LandingHero";
 import LandingStats from "./LandingStats";
 import LandingEnquiryForm from "./LandingEnquiryForm";
@@ -13,7 +14,7 @@ import LandingFAQ from "./LandingFAQ";
 import LandingStickyCTA from "./LandingStickyCTA";
 
 export default function LandingClientView() {
-  const [selectedCourseId, setSelectedCourseId] = useState<string>("ai-java-fullstack");
+  const [selectedCourseId, setSelectedCourseId] = useState(COURSES[0].id);
 
   const scrollToEnquiry = (courseId?: string) => {
     if (courseId) {
@@ -39,7 +40,7 @@ export default function LandingClientView() {
         onCourseSelect={(course) => setSelectedCourseId(course)}
       />
 
-      {/* 4. Course Details: 6 Flagship Courses */}
+      {/* 4. UK course details */}
       <LandingCourses onSelectCourse={scrollToEnquiry} />
 
       {/* 5. Why Choose WeGrow Skill Campus */}
@@ -51,7 +52,7 @@ export default function LandingClientView() {
       {/* 7. Placements & Student Success Stories */}
       <LandingPlacements />
 
-      {/* 8. Campuses in Sivakasi, Sattur & Srivilliputtur */}
+      {/* 8. UK contact location */}
       <LandingCampuses />
 
       {/* 9. FAQs */}

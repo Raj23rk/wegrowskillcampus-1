@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { COURSES } from "@/constants/courses";
 import {
   BookOpen,
   Users,
@@ -15,9 +16,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "courses",
       icon: BookOpen,
-      count: "15+",
-      label: "Total Courses",
-      detail: "6 Flagship Career Tracks & Specialized Modules",
+      count: COURSES.length,
+      label: "Featured Courses",
+      detail: "Software, marketing and workplace skills",
       color: "from-blue-500 to-indigo-600",
       accent: "text-blue-600",
       bgAccent: "bg-blue-50",
@@ -25,9 +26,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "students",
       icon: Users,
-      count: "3,500+",
-      label: "Total Students",
-      detail: "Trained & Upskilled across Tamil Nadu",
+      count: "Mentors",
+      label: "Learning Support",
+      detail: "Ask questions and get feedback",
       color: "from-amber-500 to-orange-600",
       accent: "text-brand-orange",
       bgAccent: "bg-orange-50",
@@ -35,9 +36,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "placements",
       icon: Briefcase,
-      count: "1,250+",
-      label: "Placement Count",
-      detail: "Successful candidates placed in IT firms",
+      count: "Careers",
+      label: "Placement Support",
+      detail: "Help preparing for applications",
       color: "from-emerald-500 to-teal-600",
       accent: "text-emerald-600",
       bgAccent: "bg-emerald-50",
@@ -45,9 +46,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "partners",
       icon: Building2,
-      count: "120+",
-      label: "Hiring Partners",
-      detail: "MNCs, Product Startups & Tech Giants",
+      count: "CVs",
+      label: "Interview Preparation",
+      detail: "Practise explaining your work",
       color: "from-purple-500 to-indigo-600",
       accent: "text-purple-600",
       bgAccent: "bg-purple-50",
@@ -55,9 +56,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "live-projects",
       icon: Laptop,
-      count: "10+",
-      label: "Live Capstone Projects",
-      detail: "Real production cloud deployments",
+      count: "Projects",
+      label: "Portfolio Development",
+      detail: "Show what you can build",
       color: "from-rose-500 to-pink-600",
       accent: "text-rose-600",
       bgAccent: "bg-rose-50",
@@ -65,9 +66,9 @@ export const LandingStats: React.FC = () => {
     {
       id: "practical-rate",
       icon: TrendingUp,
-      count: "100%",
-      label: "Hands-on Practical",
-      detail: "Project-first coding curriculum",
+      count: "Practice",
+      label: "Hands-on Learning",
+      detail: "Apply your skills as you learn",
       color: "from-cyan-500 to-blue-600",
       accent: "text-cyan-600",
       bgAccent: "bg-cyan-50",
@@ -83,15 +84,15 @@ export const LandingStats: React.FC = () => {
           <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between border-b border-slate-100 pb-4 gap-2">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-brand-orange">
-                Proven Track Record
+                Course Experience
               </span>
               <h2 className="text-xl sm:text-2xl font-extrabold text-brand-navy">
-                Empowering Aspirations Through Measurable Impact
+                What You Can Expect
               </h2>
             </div>
             <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full w-fit">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Verified Cohort Metrics
+              UK Admissions
             </span>
           </div>
 

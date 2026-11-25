@@ -3,7 +3,6 @@ import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import SiteChrome from "@/components/layout/SiteChrome";
 import MetaPixel from "@/components/analytics/MetaPixel";
-import GoogleTagManager from "@/components/analytics/GoogleTagManager";
 import { SITE_METADATA } from "@/constants/seo";
 
 const montserrat = Montserrat({
@@ -39,7 +38,7 @@ export const metadata: Metadata = {
         alt: SITE_METADATA.siteName,
       },
     ],
-    locale: "en_US",
+    locale: "en_GB",
     type: "website",
   },
   twitter: {
@@ -62,12 +61,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${poppins.variable}`} suppressHydrationWarning>
+    <html lang="en-GB" className={`${montserrat.variable} ${poppins.variable}`} suppressHydrationWarning>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PMQ76BPK" />
+        <script
+          id="google-tag-init"
+          dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+`,
+          }}
+        />
+      </head>
       <body
         suppressHydrationWarning
         className="min-h-screen flex flex-col bg-[#F6F8FC] text-[#3B4A66] font-poppins antialiased selection:bg-[#F7820E] selection:text-white"
       >
-        <GoogleTagManager />
         <MetaPixel />
         <SiteChrome>{children}</SiteChrome>
       </body>

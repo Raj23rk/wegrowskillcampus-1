@@ -30,7 +30,7 @@ const groups = [
   {
     title: "Fees and Enrolment",
     items: [
-      ["What are the course fees?", "Fees vary by program. Contact our team for current pricing, payment terms, and any applicable additional charges."],
+      ["What are the course fees?", "Published fees are shown in pounds. Ask our UK team about courses marked “Enquire for the fee”, payment terms and any additional charges."],
       ["How can I enrol?", "Submit an enquiry through our website or contact our team. We can explain the available programs, eligibility requirements, and enrolment steps."],
       ["When do new batches begin?", "Batch schedules depend on the program. Contact us for the latest confirmed schedule."],
     ],
@@ -39,7 +39,7 @@ const groups = [
     title: "Certificates and Career Support",
     items: [
       ["Will I receive a certificate after completing a course?", "Certificate availability, issuing authority, and completion requirements depend on the specific program. Please confirm the details before enrolling."],
-      ["Does WeGrow Skill Campus provide placement support?", "Career support may include resume guidance, interview preparation, professional development, and job-search guidance, depending on the services available for your program. Ask our team to confirm the current support offered."],
+      ["Does WeGrow Skill Campus provide placement support?", "Career support may include CV guidance, interview preparation, professional development, and job-search guidance, depending on the services available for your program. Ask our team to confirm the current support offered."],
       ["Is a job guaranteed after completing a course?", "Course completion does not automatically guarantee employment or placement. Outcomes depend on individual skills, qualifications, experience, employer requirements, and market conditions."],
       ["Can I use my projects in my portfolio?", "You may be able to showcase eligible projects, subject to project ownership, confidentiality, institutional guidelines, and applicable permissions."],
     ],
@@ -55,7 +55,7 @@ const groups = [
     title: "Contact and Support",
     items: [
       ["How can I contact WeGrow Skill Campus?", "Use the Contact page to find campus contact details and send an enquiry."],
-      ["Can I visit a campus before enrolling?", "Contact the campus to confirm visiting hours and whether an appointment is required."],
+      ["Can I visit a campus before enrolling?", "Contact our UK team about visiting the Brentford address and whether you need an appointment."],
       ["Where can I find upcoming events?", "Visit our Events page or contact us for confirmed workshops, seminars, campus activities, and registration information."],
       ["How can I get more information about a course?", "Select your preferred course and submit an enquiry. Include your questions about eligibility, fees, duration, curriculum, or learning mode so our team can respond."],
     ],

@@ -24,7 +24,7 @@ export const LandingInfrastructure: React.FC = () => {
     { id: "all", label: "All Facilities" },
     { id: "classroom", label: "Smart Classrooms & Labs" },
     { id: "boardroom", label: "Executive Boardroom" },
-    { id: "counseling", label: "Counseling & Admissions" },
+    { id: "counseling", label: "Counselling & Admissions" },
     { id: "creative", label: "Campus Art & Culture" },
   ];
 
@@ -74,13 +74,13 @@ export const LandingInfrastructure: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-14">
           <div className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-brand-navy mb-3">
             <Building2 className="w-3.5 h-3.5 text-brand-orange" />
-            <span>World-Class Learning Environment</span>
+            <span>Campus Photo Gallery</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
-            Our Campus Infrastructure
+            A Look at Our India Campus
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            Step into modern, corporate-grade learning spaces designed to nurture collaboration, deep focus, and technical innovation. Explore our high-tech smart classrooms, executive boardrooms, and counseling suites.
+            Browse photos of classrooms, collaboration spaces and student support facilities at WeGrow’s India campus. Contact our UK team for local study options.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export const LandingInfrastructure: React.FC = () => {
             </div>
             <div>
               <p className="text-xs font-bold text-slate-800">High-Speed Fibre</p>
-              <p className="text-[11px] text-slate-500">Zero latency cloud coding</p>
+              <p className="text-[11px] text-slate-500">Connected learning spaces</p>
             </div>
           </div>
 

@@ -1,7 +1,8 @@
 "use client";
 
+import { UK_CONTACT } from "@/constants/company";
 import React from "react";
-import { Phone, MessageCircle, ArrowUp } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 interface LandingStickyCTAProps {
   onEnquireClick: () => void;
@@ -13,22 +14,20 @@ export const LandingStickyCTA: React.FC<LandingStickyCTAProps> = ({ onEnquireCli
       <div className="flex items-center gap-2">
         {/* Direct Call Button */}
         <a
-          href="tel:+919344337331"
+          href={UK_CONTACT.phoneHref}
           className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-300 bg-white py-2.5 text-xs font-bold text-slate-800 shadow-sm"
         >
           <Phone className="w-3.5 h-3.5 text-brand-navy" />
           <span>Call Us</span>
         </a>
 
-        {/* WhatsApp Button */}
+        {/* Email Button */}
         <a
-          href="https://wa.me/919344337331?text=Hi%20WeGrow%20Skill%20Campus,%20I%20want%20details%20about%20courses%20and%20admissions."
-          target="_blank"
-          rel="noopener noreferrer"
+          href={`mailto:${UK_CONTACT.email}`}
           className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-emerald-600 py-2.5 text-xs font-bold text-white shadow-sm hover:bg-emerald-700"
         >
-          <MessageCircle className="w-3.5 h-3.5" />
-          <span>WhatsApp</span>
+          <Mail className="w-3.5 h-3.5" />
+          <span>Email Us</span>
         </a>
 
         {/* Enquire Button */}

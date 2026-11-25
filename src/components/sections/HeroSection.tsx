@@ -1,4 +1,5 @@
 import React from "react";
+import { COURSES } from "@/constants/courses";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -29,7 +30,7 @@ export const HeroSection: React.FC = () => {
           <div className="w-full lg:w-[50%] xl:w-[48%] flex flex-col items-center lg:items-start text-center lg:text-left justify-center">
             {/* Tagline */}
             <p className="text-[14px] sm:text-[16px] font-medium font-montserrat uppercase tracking-[2px] text-[#3B4A66] mb-4 text-center lg:text-left">
-              SKILLS TODAY. OPPORTUNITIES TOMORROW.
+              PRACTICAL IT TRAINING IN THE UK
             </p>
 
             {/* Main Headline (3 lines) */}
@@ -47,8 +48,7 @@ export const HeroSection: React.FC = () => {
 
             {/* Description paragraph */}
             <p className="text-[17px] sm:text-[20px] font-normal leading-[1.7] text-[#3B4A66] max-w-[620px] mb-8 font-poppins text-center lg:text-left mx-auto lg:mx-0">
-              WeGrow Skill Campus bridges the gap between education and industry through practical
-              training, career guidance, real-world exposure and placement support.
+              Build your skills with WeGrow Skill Campus UK. Explore practical courses in software development, data and digital skills, with support for your next career step.
             </p>
 
             {/* Two Action Buttons: centered on mobile, left-aligned on desktop */}
@@ -59,7 +59,7 @@ export const HeroSection: React.FC = () => {
                 className="inline-flex items-center justify-center bg-[#F7820E] hover:bg-[#E06F00] text-white text-[18px] font-bold font-montserrat px-[36px] sm:px-[44px] lg:px-[48px] py-[18px] sm:py-[20px] rounded-[10px] transition-all duration-200 hover:-translate-y-0.5 shadow-md shadow-[#F7820E]/20 text-center whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-[#F7820E] focus:ring-offset-2 w-full sm:w-auto"
                 id="hero-primary-cta"
               >
-                <span>Explore Programs</span>
+                <span>Explore Courses</span>
                 <ArrowRight className="w-5 h-5 ml-2.5 stroke-[2.5]" aria-hidden="true" />
               </Link>
 
@@ -135,12 +135,12 @@ export const HeroSection: React.FC = () => {
           {/* LAYER 3: FLOATING STATS CARD: bottom: 50px, right: 40px, width ~740px - z-index: 3 */}
           <div className="absolute bottom-[40px] right-[40px] z-[3] w-[95%] max-w-[740px] bg-white rounded-[16px] px-6 sm:px-8 py-5 sm:py-6 shadow-[0_10px_30px_rgba(11,59,143,0.14)] border border-[#E3E8F0]">
             <div className="grid grid-cols-3 divide-x divide-[#E3E8F0] items-center">
-              {/* Stat 1: 📖 100% — Practical Learning */}
+              {/* Stat 1: 📖 Practical Learning */}
               <div className="flex items-center gap-3.5 px-3 sm:px-5">
                 <BookOpen className="w-[36px] h-[36px] text-[#0B3B8F] shrink-0" strokeWidth={2.2} aria-hidden="true" />
                 <div className="flex flex-col text-left">
                   <span className="text-[26px] sm:text-[30px] font-extrabold font-montserrat text-[#0B3B8F] leading-tight">
-                    100%
+                    Build
                   </span>
                   <span className="text-[12px] sm:text-[14px] font-medium font-montserrat text-[#0B3B8F] whitespace-nowrap">
                     Practical Learning
@@ -148,25 +148,25 @@ export const HeroSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Stat 2: 📄 15+ — Programs Offered */}
+              {/* Courses listed */}
               <div className="flex items-center gap-3.5 px-3 sm:px-5">
                 <FileText className="w-[36px] h-[36px] text-[#0B3B8F] shrink-0" strokeWidth={2.2} aria-hidden="true" />
                 <div className="flex flex-col text-left">
                   <span className="text-[26px] sm:text-[30px] font-extrabold font-montserrat text-[#0B3B8F] leading-tight">
-                    15+
+                    {COURSES.length}
                   </span>
                   <span className="text-[12px] sm:text-[14px] font-medium font-montserrat text-[#0B3B8F] whitespace-nowrap">
-                    Programs Offered
+                    Courses Listed
                   </span>
                 </div>
               </div>
 
-              {/* Stat 3: 📊 98% — Placement Support */}
+              {/* Stat 3: 📊 Career Support */}
               <div className="flex items-center gap-3.5 px-3 sm:px-5">
                 <BarChart3 className="w-[36px] h-[36px] text-[#0B3B8F] shrink-0" strokeWidth={2.2} aria-hidden="true" />
                 <div className="flex flex-col text-left">
                   <span className="text-[26px] sm:text-[30px] font-extrabold font-montserrat text-[#0B3B8F] leading-tight">
-                    98%
+                    Grow
                   </span>
                   <span className="text-[12px] sm:text-[14px] font-medium font-montserrat text-[#0B3B8F] whitespace-nowrap">
                     Placement Support
@@ -193,21 +193,21 @@ export const HeroSection: React.FC = () => {
             <div className="flex items-center gap-3 px-2">
               <BookOpen className="w-8 h-8 text-[#0B3B8F] shrink-0" strokeWidth={2.2} />
               <div className="flex flex-col text-left">
-                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">100%</span>
+                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">Build</span>
                 <span className="text-[12px] font-medium text-[#0B3B8F]">Practical Learning</span>
               </div>
             </div>
             <div className="flex items-center gap-3 px-2 pt-3 sm:pt-0">
               <FileText className="w-8 h-8 text-[#0B3B8F] shrink-0" strokeWidth={2.2} />
               <div className="flex flex-col text-left">
-                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">15+</span>
-                <span className="text-[12px] font-medium text-[#0B3B8F]">Programs Offered</span>
+                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">{COURSES.length}</span>
+                <span className="text-[12px] font-medium text-[#0B3B8F]">Courses Listed</span>
               </div>
             </div>
             <div className="flex items-center gap-3 px-2 pt-3 sm:pt-0">
               <BarChart3 className="w-8 h-8 text-[#0B3B8F] shrink-0" strokeWidth={2.2} />
               <div className="flex flex-col text-left">
-                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">98%</span>
+                <span className="text-[24px] font-extrabold font-montserrat text-[#0B3B8F]">Grow</span>
                 <span className="text-[12px] font-medium text-[#0B3B8F]">Placement Support</span>
               </div>
             </div>

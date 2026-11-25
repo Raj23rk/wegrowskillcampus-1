@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { UK_CONTACT } from "@/constants/company";
 import Container from "@/components/common/Container";
 import PageHero from "@/components/common/PageHero";
 
@@ -21,8 +23,8 @@ const sections = [
   { title: "11. Limitation of Liability", text: "The website is provided for general informational purposes. Any legal limitations or exclusions must be reviewed and drafted for the institute's actual operations and applicable law." },
   { title: "12. Privacy", text: "Personal information submitted through the website is handled according to the applicable Privacy Policy and relevant legal requirements." },
   { title: "13. Changes to These Terms", text: "We may revise these Terms and Conditions from time to time. Publish updates with the latest revision date." },
-  { title: "14. Governing Law", text: "These Terms and Conditions are intended for an institute operating in India. Have jurisdiction-specific provisions reviewed by a qualified legal professional in light of the institute's registered location and circumstances." },
-  { title: "15. Contact Information", text: "WeGrow Skill Campus Pvt. Ltd. Address: 193,1A, Ayyappan kovil opposite/ Naturals Salon & Spa Downstairs, Parasakthi Colony, Sivakasi, Tamil Nadu 626123. Email: enquiry@wegrowcampus.in. Phone: +91 93443 37331 / +91 93633 37331." },
+  { title: "14. Scope of These Terms", text: "These terms apply to the UK website. Any terms specific to a course are provided as part of enrolment." },
+  { title: "15. Contact Information", text: <>WeGrow Skill Campus. {UK_CONTACT.address}. Call <a href={UK_CONTACT.phoneHref} className="text-brand-blue underline">{UK_CONTACT.phone}</a>, email <a href={`mailto:${UK_CONTACT.email}`} className="text-brand-blue underline">{UK_CONTACT.email}</a> or use the <Link href="/contact" className="text-brand-blue underline">enquiry form</Link>.</> },
 ];
 
 export default function TermsAndConditionsPage() {

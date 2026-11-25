@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import { UK_CONTACT, UK_CONTACT_MAP } from "@/constants/company";
+import { COURSES } from "@/constants/courses";
 import {
   MapPin,
   Phone,
@@ -13,52 +15,10 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-interface CampusBranch {
-  label?: string;
-  address: string;
-}
-
-interface CampusLocationDetail {
-  label: string;
-  address: string;
-  branches: CampusBranch[];
-}
-
-const CAMPUS_LOCATIONS: Record<"sivakasi" | "srivilliputhur", CampusLocationDetail> = {
-  sivakasi: {
-    label: "Sivakasi",
-    address: "193,1A, Ayyappan kovil opposite/ Naturals Salon & Spa Downstairs, Parasakthi Colony, Sivakasi, Tamil Nadu 626123",
-    branches: [
-      {
-        label: "Sivakasi (Main Branch)",
-        address: "193,1A, Ayyappan kovil opposite/ Naturals Salon & Spa Downstairs, Parasakthi Colony, Sivakasi, Tamil Nadu 626123",
-      },
-      {
-        label: "Sivakasi (Thiruthangal Road)",
-        address: "100A/5, 1st Floor, Thiruthangal Road, Opposite Bell Hotel, IBACO Upstairs, Sivakasi – 626 123",
-      },
-    ],
-  },
-  srivilliputhur: {
-    label: "Srivilliputhur",
-    address: "129, North Car Street, Opposite Bombay Textiles, Upstairs Pathras Kids & Gift Shop, Srivilliputtur – 626 125",
-    branches: [
-      {
-        address: "129, North Car Street, Opposite Bombay Textiles, Upstairs Pathras Kids & Gift Shop, Srivilliputtur – 626 125",
-      },
-    ],
-  },
-};
-
 export const Footer: React.FC = () => {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
-  const [selectedCampus, setSelectedCampus] = useState<keyof typeof CAMPUS_LOCATIONS>("sivakasi");
-  const activeCampus = CAMPUS_LOCATIONS[selectedCampus];
-  const campusMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`WeGrow Skill Campus ${activeCampus.address}`)}`;
-  const campusEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(activeCampus.address)}&output=embed`;
-
   // Accordion state for mobile view
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
     quickLinks: false,
@@ -98,14 +58,12 @@ export const Footer: React.FC = () => {
     { label: "Global Exposure", href: "/global-exposure" },
     { label: "About Us", href: "/about" },
     { label: "Contact Us", href: "/contact" },
+    { label: "E-shop", href: "/eshop" },
   ];
 
   const PROGRAM_LINKS = [
-    { label: "AI Java Full Stack Development", href: "/programs/ai-java-full-stack" },
-    { label: "AI Python Full Stack Development", href: "/programs/ai-python-full-stack" },
-    { label: "Data Analytics", href: "/programs/data-analytics" },
-    { label: "Digital Marketing", href: "/programs/digital-marketing" },
-    { label: "View All Programs", href: "/programs" },
+    ...COURSES.map(({ id, title }) => ({ label: title, href: `/programs/${id}` })),
+    { label: "View all courses", href: "/programs" },
   ];
 
   const USEFUL_LINKS = [
@@ -388,86 +346,33 @@ export const Footer: React.FC = () => {
               <div className="w-[46px] h-[3px] bg-[#F7820E] rounded-full mt-[12px] mb-[24px]" />
             </div>
 
-            {/* Campus Selector Pill Switcher */}
-            <div
-              className="mb-5 grid grid-cols-2 w-full max-w-[390px] rounded-xl bg-white/10 p-1.5 border border-white/15 gap-2 shadow-sm overflow-hidden"
-              role="group"
-              aria-label="Choose a campus location"
-            >
-              {(Object.keys(CAMPUS_LOCATIONS) as Array<keyof typeof CAMPUS_LOCATIONS>).map((campusKey) => {
-                const campus = CAMPUS_LOCATIONS[campusKey];
-                const isSelected = selectedCampus === campusKey;
-                return (
-                  <button
-                    key={campusKey}
-                    type="button"
-                    onClick={() => setSelectedCampus(campusKey)}
-                    aria-pressed={isSelected}
-                    className={`min-w-0 rounded-lg py-2.5 px-3 text-xs sm:text-[13px] md:text-sm font-bold text-center tracking-normal transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F7820E] whitespace-nowrap overflow-hidden text-ellipsis ${
-                      isSelected
-                        ? "bg-[#F7820E] text-white shadow-md scale-[1.01]"
-                        : "text-white/80 hover:bg-white/10 hover:text-white"
-                    }`}
-                  >
-                    {campus.label}
-                  </button>
-                );
-              })}
+            <div className="flex items-start gap-3 text-white/90 mb-4">
+              <MapPin className="mt-1 h-5 w-5 shrink-0 stroke-[2] text-[#F7820E]" aria-hidden="true" />
+              <span className="text-sm sm:text-[15px] leading-relaxed">{UK_CONTACT.address}</span>
             </div>
 
-            {/* Address */}
-            <div className="space-y-3 mb-4">
-              {activeCampus.branches.map((branch, idx) => (
-                <div key={idx} className="flex items-start gap-3 text-white/90">
-                  <MapPin className="mt-1 h-5 w-5 shrink-0 stroke-[2] text-[#F7820E]" aria-hidden="true" />
-                  <div className="text-sm sm:text-[15px] leading-relaxed">
-                    {branch.label && (
-                      <span className="block text-[11px] font-bold text-[#F7820E] uppercase tracking-wider mb-0.5">
-                        {branch.label}
-                      </span>
-                    )}
-                    <span>{branch.address}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Phone */}
             <div className="flex items-start gap-3 text-white/90 mb-3">
               <Phone className="h-5 w-5 shrink-0 stroke-[2] text-[#F7820E] mt-0.5" aria-hidden="true" />
-              <div className="flex flex-col gap-1 text-sm sm:text-[15px]">
-                <a href="tel:+919344337331" className="hover:text-[#F7820E] transition-colors">+91 93443 37331</a>
-                <a href="tel:+919363337331" className="hover:text-[#F7820E] transition-colors">+91 93633 37331</a>
-              </div>
+              <a href={UK_CONTACT.phoneHref} className="text-sm sm:text-[15px] hover:text-[#F7820E] transition-colors">{UK_CONTACT.phone}</a>
             </div>
 
-            {/* Email */}
             <div className="flex items-center gap-3 text-white/90 mb-3">
               <Mail className="h-5 w-5 shrink-0 stroke-[2] text-[#F7820E]" aria-hidden="true" />
-              <a
-                href="mailto:enquiry@wegrowcampus.in"
-                className="text-sm sm:text-[15px] hover:text-[#F7820E] transition-colors break-all"
-              >
-                enquiry@wegrowcampus.in
-              </a>
+              <a href={`mailto:${UK_CONTACT.email}`} className="text-sm sm:text-[15px] hover:text-[#F7820E] transition-colors break-all">{UK_CONTACT.email}</a>
             </div>
 
-            {/* Hours */}
-            <div className="flex items-center gap-3 text-white/90 mb-3.5">
+            <div className="flex items-start gap-3 text-white/90 mb-3.5">
               <Clock className="h-5 w-5 shrink-0 stroke-[2] text-[#F7820E]" aria-hidden="true" />
-              <span className="text-sm sm:text-[15px]">
-                Classes: Mon - Sat, 9:00 AM - 7:00 PM
-              </span>
+              <span className="text-sm sm:text-[15px]">{UK_CONTACT.hours}</span>
             </div>
 
-            {/* Direct Google Maps link */}
             <a
-              href={campusMapUrl}
+              href={UK_CONTACT_MAP.href}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#F7820E] hover:text-white transition-colors"
             >
-              <span>View {activeCampus.label} on Google Maps</span>
+              <span>View {UK_CONTACT.location} on Google Maps</span>
               <ExternalLink className="h-4 w-4" aria-hidden="true" />
             </a>
           </div>
@@ -475,7 +380,6 @@ export const Footer: React.FC = () => {
 
         {/* ================= LOWER SECTION: INTERACTIVE MAP & STAY UPDATED ================= */}
         <div className="mt-12 pt-10 border-t border-white/10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-          {/* MAP CARD: lg:col-span-7 */}
           <div className="lg:col-span-7 flex flex-col justify-between rounded-2xl border border-white/15 bg-white/[0.04] p-5 sm:p-6 shadow-lg backdrop-blur-sm">
             <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
               <div className="flex items-center gap-3">
@@ -485,12 +389,12 @@ export const Footer: React.FC = () => {
                 <div>
                   <h4 className="text-lg sm:text-xl font-bold text-white">Find Us</h4>
                   <p className="text-xs sm:text-sm text-white/70">
-                    Interactive map for {activeCampus.label} Campus
+                    Map of our {UK_CONTACT.location} address
                   </p>
                 </div>
               </div>
               <a
-                href={campusMapUrl}
+                href={UK_CONTACT_MAP.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[#F7820E] px-4 py-2 text-xs sm:text-sm font-bold text-white shadow-sm transition-all hover:bg-[#E06F00] hover:scale-[1.02] active:scale-[0.98]"
@@ -502,9 +406,8 @@ export const Footer: React.FC = () => {
 
             <div className="w-full overflow-hidden rounded-xl border border-white/20 bg-black/20 h-[220px] sm:h-[260px]">
               <iframe
-                key={selectedCampus}
-                title={`${activeCampus.label} campus map`}
-                src={campusEmbedUrl}
+                title={`${UK_CONTACT.location} location map`}
+                src={UK_CONTACT_MAP.embed}
                 className="w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -513,7 +416,6 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* STAY UPDATED NEWSLETTER: lg:col-span-5 */}
           <div className="lg:col-span-5 flex flex-col justify-between rounded-2xl border border-white/15 bg-white/[0.04] p-6 sm:p-7 shadow-lg backdrop-blur-sm">
             <div>
               <span className="inline-block px-3 py-1 rounded-full bg-[#F7820E]/20 text-[#F7820E] text-xs font-bold tracking-wider uppercase mb-3">

@@ -6,11 +6,11 @@ import PlacementPhotoGallery from "@/components/placements/PlacementPhotoGallery
 
 export const metadata: Metadata = {
   title: "Career Support & Placements | WeGrow Skill Campus",
-  description: "Explore resume building, interview practice, career guidance, and campus placement drives at WeGrow Skill Campus.",
+  description: "Explore CV writing, interview practice and career guidance with WeGrow Skill Campus UK.",
 };
 
 const services = [
-  { title: "Resume Building", text: "Learn how to structure a professional resume, describe your skills, highlight relevant projects, and present your education and experience clearly." },
+  { title: "CV Writing", text: "Learn how to structure a professional CV, describe your skills, highlight relevant projects, and present your education and experience clearly." },
   { title: "Interview Preparation", text: "Practise answering common interview questions, explaining your projects, discussing your strengths, and communicating your career goals." },
   { title: "Communication Skills", text: "Improve professional writing, speaking, presentation, and interpersonal communication through relevant learning activities." },
   { title: "Professional Profile Development", text: "Understand how to present your qualifications, projects, achievements, and skills in a professional portfolio or online profile." },
@@ -19,11 +19,11 @@ const services = [
   { title: "Project Presentation", text: "Learn how to explain the problem you addressed, the approach you used, the tools involved, and the results you achieved." },
 ];
 
-const steps = ["Discover: Identify your interests, existing skills, and career objectives.", "Develop: Strengthen relevant technical and professional capabilities.", "Demonstrate: Organise projects, assignments, and achievements into a clear portfolio.", "Prepare: Practise interviews, resume presentation, and professional communication.", "Progress: Continue applying, learning, receiving feedback, and refining your approach."];
+const steps = ["Discover: Identify your interests, existing skills, and career objectives.", "Develop: Strengthen relevant technical and professional capabilities.", "Demonstrate: Organise projects, assignments, and achievements into a clear portfolio.", "Prepare: Practise interviews, presenting your CV, and professional communication.", "Progress: Continue applying, learning, receiving feedback, and refining your approach."];
 
 const placementAreas = [
   ["Career direction", "Explore roles connected to your interests and learning, and compare their responsibilities and skill requirements."],
-  ["Application readiness", "Practise tailoring your resume and application to the role, and presenting relevant skills with clear examples."],
+  ["Application readiness", "Practise tailoring your CV and application to the role, and presenting relevant skills with clear examples."],
   ["Interview practice", "Prepare to discuss your projects, decisions, challenges, and learning in a structured and confident way."],
   ["Opportunity awareness", "Build habits for finding and reviewing openings, checking eligibility, and keeping track of applications."],
 ];
@@ -34,7 +34,7 @@ export default function CareerSupportPage() {
       <PageHero
         eyebrow="Career Preparation"
         title="Career Support & Placements"
-        description="Build your skills, strengthen your profile, and prepare for what’s next with practical career guidance and campus placement opportunities."
+        description="Build your skills, strengthen your CV and prepare for interviews with career guidance from WeGrow Skill Campus UK."
         image="/difference/career-guidance.jpg"
         imageAlt="Learner preparing for a professional career"
         imagePosition="object-center"

@@ -1,6 +1,6 @@
-# WeGrow Skill Campus
+# WeGrow Skill Campus UK
 
-Official web platform for **WeGrow Skill Campus** — bridging the gap between education and industry through practical training, live real-world projects, industry mentorship, and dedicated corporate placement support.
+UK website for [WeGrow Skill Campus](https://wegrowcampus.co.uk), featuring courses, practical training and career support.
 
 ## 🚀 Key Features
 
@@ -30,10 +30,10 @@ Official web platform for **WeGrow Skill Campus** — bridging the gap between e
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Vjkumar2004/wegrowskillcampus.git
+git clone https://github.com/MrLeopard-Media/weGrow-uk.git
 
 # Navigate to project directory
-cd wegrowskillcampus
+cd weGrow-uk
 
 # Install dependencies
 npm install
@@ -49,6 +49,12 @@ Open [http://localhost:3000](http://localhost:3000) or [http://localhost:3002](h
 npm run build
 npm start
 ```
+
+Use `NEXT_PUBLIC_API_BASE_URL` for the enquiry API. Events uses the India site's public catalogue. Keep the ImageKit endpoint aligned with the India site so both deployments display the same photos. If the India catalogue is unavailable, the UK site falls back to configured ImageKit access, then cached events or the bundled archive.
+
+Course fees come from [data/course-fees.json](data/course-fees.json). Each amount is displayed in pounds as entered. A `null` amount shows “Enquire for the fee”.
+
+The e-shop at `/eshop` uses [data/products.json](data/products.json). Each product has an `id`, `name`, formatted `price`, and an `image` path. The ID forms the product URL. Product pages also support a `summary`, a full `description`, and a list of `relatedProductIds` that reference other catalogue entries. Put images in `public/products/` and reference them as `/products/filename` in the JSON. Rebuild after editing the catalogue. The basket at `/eshop/cart` stores product IDs and quantities in browser storage and uses the current catalogue prices for subtotals.
 
 ## 📄 License
 All rights reserved © 2026 WeGrow Skill Campus.

@@ -32,7 +32,7 @@ const JOURNEY_STEPS: JourneyStepItem[] = [
     theme: "orange",
     icon: FileText,
     title: "Career Preparation",
-    description: "Strategic guidance, resume engineering, aptitude mastery and interview drills.",
+    description: "Strategic guidance, CV preparation, aptitude mastery and interview drills.",
   },
   {
     step: "03",
@@ -46,7 +46,7 @@ const JOURNEY_STEPS: JourneyStepItem[] = [
     theme: "orange",
     icon: Users,
     title: "Interview Readiness",
-    description: "Rigorous mock panels, technical & HR rounds, and personalized soft-skills feedback.",
+    description: "Rigorous mock panels, technical & HR rounds, and personalised feedback on communication skills.",
   },
   {
     step: "05",
