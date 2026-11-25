@@ -3,6 +3,7 @@ import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import SiteChrome from "@/components/layout/SiteChrome";
 import MetaPixel from "@/components/analytics/MetaPixel";
+import GoogleTagManager from "@/components/analytics/GoogleTagManager";
 import { SITE_METADATA } from "@/constants/seo";
 
 const montserrat = Montserrat({
@@ -66,6 +67,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className="min-h-screen flex flex-col bg-[#F6F8FC] text-[#3B4A66] font-poppins antialiased selection:bg-[#F7820E] selection:text-white"
       >
+        <GoogleTagManager />
         <MetaPixel />
         <SiteChrome>{children}</SiteChrome>
       </body>
